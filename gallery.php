@@ -420,7 +420,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="vgx-material-grid">
     <article class="vgx-material-card">
       <h3 class="anchored">Mask Distribution Strategy Note</h3>
-      <a href="blog.php" aria-label="Read more: Mask Distribution Strategy Note">
+      <a href="./blog.php" aria-label="Read more: Mask Distribution Strategy Note">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -430,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
     <article class="vgx-material-card">
       <h3 class="anchored">Community Awareness Brief</h3>
-      <a href="media-coverage.php" aria-label="Read more: Community Awareness Brief">
+      <a href="./media-coverage.php" aria-label="Read more: Community Awareness Brief">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -440,7 +440,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
     <article class="vgx-material-card">
       <h3 class="anchored">Volunteer Safety Protocol</h3>
-      <a href="contact.php" aria-label="Read more: Volunteer Safety Protocol">
+      <a href="./contact.php" aria-label="Read more: Volunteer Safety Protocol">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -450,7 +450,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
     <article class="vgx-material-card">
       <h3 class="anchored">Impact Snapshot</h3>
-      <a href="achievements.php" aria-label="Read more: Impact Snapshot">
+      <a href="./achievements.php" aria-label="Read more: Impact Snapshot">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>

@@ -265,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
         <p style="font-family: 'DM Sans', sans-serif; font-size: 1.1rem; opacity: 0.9; margin-bottom: 30px; line-height: 1.6;">
           Empowering rural lives through sustainable development and inclusive growth. <br>Join us in making a difference.
         </p>
-        <a href="contact.php" style="display: inline-block; padding: 14px 32px; background-color: white; color: #1a5c2a; font-weight: 700; border-radius: 50px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+        <a href="./contact.php" style="display: inline-block; padding: 14px 32px; background-color: white; color: #1a5c2a; font-weight: 700; border-radius: 50px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
           Get Involved
         </a>
       </div>

@@ -296,8 +296,8 @@ ul.task-list li input[type="checkbox"] {
   <p>VSS focuses on community-led development, sustainable livelihoods, conservation of traditional water resources, health and environmental awareness, and promotion of fundamental rights. Through grassroots efforts, the organization also supports women’s livelihoods, climate resilience, and community participation in Panchayati Raj systems, helping rural communities become more self-reliant and resilient.</p>
   
   <div class="about-home-actions">
-    <a href="about.php" class="btn-vss">Read More About Us</a>
-    <a href="contact.php" class="btn-vss-outline">Contact Us</a>
+    <a href="./about.php" class="btn-vss">Read More About Us</a>
+    <a href="./contact.php" class="btn-vss-outline">Contact Us</a>
   </div>
 </div>
 
@@ -997,8 +997,8 @@ ul.task-list li input[type="checkbox"] {
       <h2 class="anchored">Jahan Har Zindagi<br><em>Phale-Phule</em></h2>
       <p>राजस्थान के ग्रामीण और सूखा-प्रभावित क्षेत्रों में हम विश्वास करते हैं कि जब समुदाय को आजीविका, जल सुरक्षा, शिक्षा और अधिकारों तक पहुँच मिलती है, तभी सच्चे अर्थों में आत्मनिर्भर और सशक्त समाज का निर्माण होता है।</p>
       <div class="banner-btns">
-        <a href="about.php" class="btn-banner-white">Hamare Saath Judein</a>
-        <a href="gallery.php" class="btn-banner-ghost">Gallery Dekhein</a>
+        <a href="./about.php" class="btn-banner-white">Hamare Saath Judein</a>
+        <a href="./gallery.php" class="btn-banner-ghost">Gallery Dekhein</a>
       </div>
     </div>
   </div>
