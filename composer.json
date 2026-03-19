@@ -1,0 +1,11 @@
+{
+    "name": "vss-webhost/static-site",
+    "description": "Static website for VSS NGO",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {}
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
