@@ -1677,6 +1677,24 @@
   color: #1a5c2a;
 }
 
+.navbar .nav-link.active,
+.navbar .show > .nav-link {
+  color: #1a5c2a !important;
+}
+
+.navbar .navbar-toggler {
+  border-color: rgba(26, 92, 42, 0.18);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(26, 92, 42, 0.12);
+}
+
+.navbar .navbar-toggler-icon {
+  filter: invert(23%) sepia(19%) saturate(1050%) hue-rotate(83deg) brightness(92%) contrast(88%);
+}
+
 @media (max-width: 768px) {
   .navbar .navbar-brand-logo::after {
     font-size: 1.05rem;
