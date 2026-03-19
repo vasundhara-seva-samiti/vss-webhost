@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>board – Vasundhara Sewa Samiti</title>
+<title>basicright – Vasundhara Sewa Samiti</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +98,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +129,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
+    <a class="nav-link" href="./gallery.php"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career.html"> 
+    <a class="nav-link" href="./career.php"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +203,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -220,44 +220,83 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">board</h1>
+
+
+
+<div class="theme-hero theme-hero--rights">
+  <div class="focus-hero-inner">
+    <h2 class="focus-hero-title anchored">Right Based</h2>
+  </div>
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="focus-wrapper theme-detail-page">
+  <div class="focus-intro-container focus-intro-container--text-only">
+    <div class="focus-intro-text reveal">
+      <h2 class="anchored">Rights, Justice, and Community Accountability</h2>
+      <div class="section-divider"></div>
+      <div class="focus-subtitle-wrapper">
+<p>In western Rajasthan, Dalits and marginalized communities face a dual exclusion: they are physically distant from government services, and socially denied the rights that legally belong to them. Caste-based discrimination continues in schools and public spaces. Atrocities go unreported out of fear. Government benefits are captured by the powerful. The voice of the poor is rarely heard in administrative corridors.</p>
+<p>Vasundhara Sewa Samiti’s work on fundamental rights is built on the understanding that rights are not given — they are claimed. Through collective organizing, legal support, democratic advocacy, and strategic use of information tools, the organization works to shift the power balance so that the most marginalized communities can access justice, dignity, and accountability.</p>
+      </div>
+    </div>
   </div>
-  
-
-
-</header>
-
-
-<section id="board" class="level2">
-<h2 class="anchored" data-anchor-id="board">Board</h2>
-<p>The Board provides strategic direction, governance oversight, and policy guidance to ensure institutional integrity and long-term impact.</p>
-<p>Add board member details here:</p>
-<ul>
-<li>Name - Role</li>
-<li>Name - Role</li>
-<li>Name - Role</li>
-</ul>
-
-
+<section id="programs-under-right-based" class="level1">
+<h1>Programs Under Right Based</h1>
+<section id="community-organization-building-sangathan-nirman" class="level2">
+<h2 class="anchored" data-anchor-id="community-organization-building-sangathan-nirman">Community Organization Building — Sangathan Nirman</h2>
+<p>The foundation of all rights work is collective strength. Vasundhara Sewa Samiti builds and nurtures democratic people’s organizations at multiple levels — from the village to the block. These include Gram Vikas Samitis for men and women separately, youth organizations, collectives for persons with disabilities, single women’s groups, Dalit rights organizations, artisan collectives, and registered mine worker unions. Each organization meets regularly to review issues, plan advocacy actions, and hold government and community institutions accountable. This network of grassroots organizations creates the social infrastructure through which all other programs operate.</p>
 </section>
+<section id="combating-atrocities-anyay-atyachar-nivaran" class="level2">
+<h2 class="anchored" data-anchor-id="combating-atrocities-anyay-atyachar-nivaran">Combating Atrocities — Anyay / Atyachar Nivaran</h2>
+<p>Caste-based violence and exploitation of Dalits remain deeply embedded in rural western Rajasthan. Incidents of physical assault, wage denial, domestic violence, and humiliation frequently go unreported because victims fear retaliation and distrust the justice system. Vasundhara Sewa Samiti provides courage and support to victims by taking up cases through the community organizations, helping register FIRs, and providing continuous follow-up through the legal process. The organization ensures that perpetrators are held accountable and that victims receive justice through formal courts, sending a clear message that atrocities will not go unaddressed.</p>
+</section>
+<section id="eliminating-discrimination-bhedbhav-nivaran" class="level2">
+<h2 class="anchored" data-anchor-id="eliminating-discrimination-bhedbhav-nivaran">Eliminating Discrimination — Bhedbhav Nivaran</h2>
+<p>Untouchability — particularly the denial of equal access to drinking water and mid-day meals in government schools — persists in many villages despite being constitutionally prohibited. Dalit children are made to sit separately, denied food and water alongside upper-caste peers, and subjected to humiliation in educational institutions meant to offer them equal opportunity. The organization identifies such cases through its community network, documents them, and takes formal action through letters to school authorities and local administration. The approach is firm and non-negotiable: discrimination in any public space or institution must end. Follow-up continues until the problem is resolved and confirmed by the community itself.</p>
+</section>
+<section id="public-demonstrations-dharna-rally-pradarshan" class="level2">
+<h2 class="anchored" data-anchor-id="public-demonstrations-dharna-rally-pradarshan">Public Demonstrations — Dharna, Rally, Pradarshan</h2>
+<p>Democratic public pressure is a vital tool for social change. Vasundhara Sewa Samiti regularly organizes rallies, public demonstrations, and community protests to amplify the voices of Dalits and the marginalized on issues of atrocities, discrimination, and denial of rights. These demonstrations create public awareness, build solidarity among marginalized communities, pressure government officials to act, and signal to the broader society that injustice will be resisted collectively. The organization participates in and mobilizes for events like Human Rights Day marches at divisional and state levels, connecting local issues to larger movements for dignity and justice.</p>
+</section>
+<section id="dalit-reference-centre-dalit-sandarbh-kendra" class="level2">
+<h2 class="anchored" data-anchor-id="dalit-reference-centre-dalit-sandarbh-kendra">Dalit Reference Centre — Dalit Sandarbh Kendra</h2>
+<p>The Dalit Reference Centre is a one-stop support hub where Dalits, women, and marginalized families can come for guidance, legal information, and facilitation in accessing their entitlements. Many community members do not know what schemes they are eligible for, how to apply, or where to go when applications are rejected. The Centre provides this support completely free of cost — helping people understand their rights, prepare applications for government schemes, follow up with authorities, and access legal aid when needed. It functions as a bridge between marginalized citizens and the often-inaccessible administrative machinery of the state.</p>
+</section>
+<section id="right-to-information-suchna-ka-adhikar" class="level2">
+<h2 class="anchored" data-anchor-id="right-to-information-suchna-ka-adhikar">Right to Information — Suchna Ka Adhikar</h2>
+<p>The Right to Information Act is wielded as a powerful accountability tool. In the monthly meetings of Gram Vikas Samitis, members are educated about RTI and supported to file applications seeking information on government programs in their villages — from NREGA work records and BPL lists to Indira Awas Yojana beneficiaries and electricity connections. The information obtained is used to detect corruption, identify eligible families who have been excluded, restart stalled projects, and ensure that public funds actually reach their intended beneficiaries. RTI has proven to be one of the most effective non-legal tools for grassroots accountability in the organization’s experience.</p>
+</section>
+<section id="letters-to-administration-prashasan-ko-patra" class="level2">
+<h2 class="anchored" data-anchor-id="letters-to-administration-prashasan-ko-patra">Letters to Administration — Prashasan Ko Patra</h2>
+<p>Local problems related to drinking water, employment, roads, and welfare schemes are systematically taken up with the concerned government departments through formal letters and representations. Community members, supported by the organization, write to Jaldaya Vibhag for water supply, to Sub-Block Officers for NREGA employment, to MLAs for road construction, and to Social Justice departments for scheme enrollment. Every letter is followed up until a response and action are obtained. This program embeds a culture of civic engagement and accountability in communities that previously had no channel to communicate with the administration.</p>
+</section></section></div>
+
+<script>
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", reveal);
+  reveal();
+</script>
+
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -697,5 +736,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

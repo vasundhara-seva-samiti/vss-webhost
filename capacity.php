@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>achievements – Vasundhara Sewa Samiti</title>
+<title>capacity – Vasundhara Sewa Samiti</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +98,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +129,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
+    <a class="nav-link" href="./gallery.php"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career.html"> 
+    <a class="nav-link" href="./career.php"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +203,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -230,205 +230,71 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="impact-page">
-  <!-- Hero Banner -->
-  <div class="impact-hero">
-    <div class="impact-badge">Our Work · Our Impact</div>
-    <h1 class="impact-title">Changing Lives,<br>One Community at a Time</h1>
-    <p class="impact-subtitle">From grassroots advocacy to systemic change — here's what we've achieved together.</p>
-  </div>
-
-  <div class="impact-container">
-    <!-- Achievements Section -->
-    <div id="achievements-section" style="padding: 80px 0 60px;">
-      <div class="section-head">
-        <div class="section-label">
-          <div class="section-bar" style="background: #e8a63a;"></div>
-          <span class="section-text" style="color: #e8a63a;">Measurable Results</span>
-        </div>
-        <h2 class="section-h2 anchored">Key Achievements</h2>
-      </div>
-      
-      <div id="achievements-grid" class="grid-cards">
-        <!-- Achievement Cards will be injected here -->
-      </div>
-    </div>
-
-    <!-- Divider -->
-    <div style="height: 1px; background: linear-gradient(90deg, transparent, rgba(0,0,0,0.05), transparent); margin: 0 0 80px;"></div>
-
-    <!-- Green Theme Area -->
-    <div style="background-color: #1a5c2a; padding: 60px 0; margin-bottom: 80px; text-align: center; color: white; border-radius: 8px; position: relative; overflow: hidden;">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #fff 10px, #fff 11px);"></div>
-      <div style="max-width: 800px; margin: 0 auto; position: relative; z-index: 2;">
-        <h2 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 20px; color: white;" class="anchored">Supporting Our Community</h2>
-        <p style="font-family: 'DM Sans', sans-serif; font-size: 1.1rem; opacity: 0.9; margin-bottom: 30px; line-height: 1.6;">
-          Empowering rural lives through sustainable development and inclusive growth. <br>Join us in making a difference.
-        </p>
-        <a href="contact.html" style="display: inline-block; padding: 14px 32px; background-color: white; color: #1a5c2a; font-weight: 700; border-radius: 50px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-          Get Involved
-        </a>
-      </div>
-    </div>
-
-    <!-- Impact Section -->
-    <div id="impact-section" style="padding-bottom: 80px;">
-      <div class="section-head">
-        <div class="section-label">
-          <div class="section-bar" style="background: #e84040;"></div>
-          <span class="section-text" style="color: #e84040;">Stories of Change</span>
-        </div>
-        <h2 class="section-h2 anchored">Impact Stories</h2>
-      </div>
-
-      <div id="impact-grid" class="grid-cards">
-        <!-- Impact Cards will be injected here -->
-      </div>
-    </div>
+<div class="theme-hero theme-hero--capacity">
+  <div class="focus-hero-inner">
+    <h2 class="focus-hero-title anchored">Capacity Building</h2>
   </div>
 </div>
 
+<div class="focus-wrapper theme-detail-page">
+  <div class="focus-intro-container focus-intro-container--text-only">
+    <div class="focus-intro-text reveal">
+      <h2 class="anchored">Strengthening Knowledge, Skills, and Leadership</h2>
+      <div class="section-divider"></div>
+      <div class="focus-subtitle-wrapper">
+<p>Development work that does not invest in people’s own capacities creates dependency rather than transformation. Vasundhara Sewa Samiti is deeply committed to the principle that communities must not only be the beneficiaries of programs, but the informed, skilled, and confident leaders of their own futures. This requires sustained investment in knowledge, awareness, and practical skills — from individual community members to organized groups to field staff.</p>
+<p>The organization’s capacity building work spans multiple levels and audiences: mine workers and daily wage labourers who need to know their legal rights; women who need to understand government schemes and their entitlements; SHG members who need skills to manage finances and run small enterprises; school communities that need stronger governance; and field staff who need ongoing technical and thematic learning to deliver quality programs.</p>
+      </div>
+    </div>
+  </div>
+<section id="program-under-capacity-building" class="level1">
+<h1>Program Under Capacity Building</h1>
+<section id="awareness-camps-chetna-shivir" class="level2">
+<h2 class="anchored" data-anchor-id="awareness-camps-chetna-shivir">Awareness Camps — Chetna Shivir</h2>
+<p>Awareness camps are the entry point for community capacity building. Organized across villages in the working area, these camps bring community members together to learn about their fundamental rights, legal entitlements, government schemes, and collective action strategies. Resource persons from the organization facilitate sessions on topics including RTI, NREGA rights, domestic violence laws, caste discrimination protections, and health rights. The camps are designed not as lectures but as participatory processes — where community members share their own experiences, ask questions, and collectively plan how to address issues in their villages. Chetna Shivirs are especially targeted at mine workers, who are among the most exploited and least aware of their legal protections.</p>
+</section>
+<section id="training-workshops-prashikshan-karyashala" class="level2">
+<h2 class="anchored" data-anchor-id="training-workshops-prashikshan-karyashala">Training Workshops — Prashikshan / Karyashala</h2>
+<p>Beyond awareness, community members need practical skills to take action. Vasundhara Sewa Samiti organizes thematic training workshops on specific issues and skills — including self-help group management and financial literacy, union membership and collective bargaining, health and hygiene practices, public distribution system monitoring, and community issue advocacy. These workshops are conducted in accessible village locations, using experienced facilitators and participatory methods. Separate workshops are organized for SHG members, community organization leaders, para health workers, and other specific groups, ensuring that training content is relevant to participants’ real contexts and practical needs.</p>
+</section>
+<section id="staff-capacity-building-karyakarta-kshamata-vardhan" class="level2">
+<h2 class="anchored" data-anchor-id="staff-capacity-building-karyakarta-kshamata-vardhan">Staff Capacity Building — Karyakarta Kshamata Vardhan</h2>
+<p>The quality of community programs depends directly on the knowledge and skills of field workers. Vasundhara Sewa Samiti invests systematically in the professional development of its field staff through external training programs, workshops, and exposure visits at district, state, and national levels. Staff members are trained on topics including health and sanitation committee strengthening, para-legal skills, RTI facilitation, domestic violence response, water harvesting, mine worker welfare law, and organizational management. This continuous learning culture ensures that the organization’s team remains knowledgeable, motivated, and technically capable of supporting complex community processes.</p>
+</section>
+<section id="school-development-shiksha-vikas-karyakram" class="level2">
+<h2 class="anchored" data-anchor-id="school-development-shiksha-vikas-karyakram">School Development — Shiksha Vikas Karyakram</h2>
+<p>Education is a pathway out of poverty and discrimination, but children from Dalit and marginalized communities in remote areas face enormous barriers to accessing and completing quality schooling. Vasundhara Sewa Samiti runs two community schools in villages where government schools are more than 3 kilometers away — making education accessible for children in remote dhanis. The schools primarily serve SC, ST, and OBC children. In addition to running schools, the organization supports School Management Committees in government schools, helping parents become active participants in school governance, monitoring mid-day meals and teacher attendance, reviewing budgets, and planning improvements. Annual parent meetings are held to review academic results and financial accounts, ensuring transparency and accountability.</p>
+</section>
+<section id="womens-fortnight-mahila-pakhwada" class="level2">
+<h2 class="anchored" data-anchor-id="womens-fortnight-mahila-pakhwada">Women’s Fortnight — Mahila Pakhwada</h2>
+<p>Women’s empowerment requires dedicated, focused spaces where women can learn about their rights, build solidarity, and take collective action against violence and discrimination. The annual Women’s Fortnight is a week-long intensive program focused on women’s legal rights, protection against domestic violence, and women’s entitlements under government schemes. The event includes awareness sessions, interactive competitions on women’s issues, cultural performances, and the felicitation of women community leaders. It creates a powerful collective experience that reinforces women’s sense of agency, dignity, and community support — and strengthens the organization’s women’s network across villages.</p>
+</section>
+<section id="childrens-events-bal-mela-and-school-activities" class="level2">
+<h2 class="anchored" data-anchor-id="childrens-events-bal-mela-and-school-activities">Children’s Events — Bal Mela and School Activities</h2>
+<p>Investing in children’s development means more than classroom learning. Vasundhara Sewa Samiti organizes periodic children’s events — including an annual Children’s Fair (Bal Mela) with sports, creative competitions, cultural performances, and games — to build children’s confidence, enthusiasm for school, and community belonging. Schools supported by the organization also hold regular weekly assemblies, celebrate national festivals and the birthdays of great reformers, and organize annual educational excursions that broaden children’s horizons. These activities complement academic learning and build the whole child — intellectually, socially, and emotionally.</p>
+</section>
+<section id="public-distribution-system-awareness" class="level2">
+<h2 class="anchored" data-anchor-id="public-distribution-system-awareness">Public Distribution System Awareness</h2>
+<p>The Public Distribution System — which provides subsidized food through ration shops — is a critical entitlement for poor families, but its benefits are routinely siphoned off through corruption and mismanagement. The organization conducts targeted awareness sessions to educate communities about their entitlements, the government’s official schedule (the 15th to 22nd of every month in Rajasthan), and how to monitor and demand correct distribution. Communities that are informed and organized are far better positioned to hold ration dealers and local officials accountable, ensuring that food security entitlements actually reach the poorest families.</p>
+</section></section></div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const achievements = [
-      { id: 1, number: "1,200", unit: "Bigha", description: "Agricultural land freed from encroachment for the Dalit community", icon: "🌾", color: "#e86c3a" },
-      { id: 2, number: "200", unit: "Families", description: "Deprived families assisted in getting residential land titles (Pattas)", icon: "🏠", color: "#3a7de8" },
-      { id: 3, number: "1,703", unit: "People", description: "Received justice under the Atrocities Prevention Act", icon: "⚖️", color: "#6c3ae8" },
-      { id: 4, number: "5,000", unit: "Applicants", description: "People helped to apply for NREGA work", icon: "📋", color: "#3ab87d" },
-      { id: 5, number: "427", unit: "Volunteers", description: "Trained volunteers actively doing advocacy work at village level", icon: "🤝", color: "#e8a63a" },
-    ];
-
-    const impacts = [
-      { id: 1, title: "Reduced Discrimination", description: "Increased access of Dalit community to public services and public places; discrimination significantly reduced.", icon: "✊", color: "#e84040" },
-      { id: 2, title: "Government Inclusion", description: "Deprived communities gained access to government departments; many became active members of government committees.", icon: "🏛️", color: "#3a7de8" },
-      { id: 3, title: "Media Recognition", description: "Recognition and visibility increased in both electronic and print media.", icon: "📺", color: "#8e3ae8" },
-      { id: 4, title: "Women Empowerment", description: "Gender discrimination reduced; women's participation in organizations increased and their self-confidence grew.", icon: "👩", color: "#e83aaa" },
-      { id: 5, title: "Democratic Participation", description: "210 people elected as public representatives in the three-tier Panchayati Raj system.", icon: "🗳️", color: "#3ab87d" },
-    ];
-
-    // CountUp Animation Function
-    function animateValue(obj, start, end, duration) {
-      let startTimestamp = null;
-      const step = (timestamp) => {
-        if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        const current = Math.floor(eased * (end - start) + start);
-        obj.innerHTML = current.toLocaleString();
-        if (progress < 1) {
-          window.requestAnimationFrame(step);
-        } else {
-           obj.innerHTML = end.toLocaleString();
-        }
-      };
-      window.requestAnimationFrame(step);
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      }
     }
-
-    // Render Achievement Cards
-    const achievementsGrid = document.getElementById('achievements-grid');
-    achievements.forEach((item, index) => {
-      const card = document.createElement('div');
-      card.className = 'achiev-card animate-card';
-      card.style.animationDelay = `${index * 0.1}s`;
-      
-      // Update HTML to use light theme styles (removed hardcoded dark gradients)
-      // Using item.color for icon background with low opacity
-      
-      card.innerHTML = `
-        <div class="achiev-image-placeholder" style="width: 100%; height: 160px; background: ${item.color}08; border-bottom: 1px solid ${item.color}20; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 8px 8px 0 0;">
-          <div style="font-size: 36px; opacity: 0.5;">📷</div>
-          <span style="color: ${item.color}; font-size: 11px; font-family: monospace; letter-spacing: 2px; opacity: 0.7; margin-top: 5px;">ADD IMAGE HERE</span>
-        </div>
-
-        <div class="achiev-icon-box" style="background: ${item.color}15; color: ${item.color}; margin-top: -35px; position: relative; border: 4px solid #fff;">
-          ${item.icon}
-        </div>
-        <div>
-          <div class="achiev-number" data-target="${item.number.replace(/,/g, '')}" style="color: ${item.color}; font-weight: 800;">0</div>
-          <div style="color: #6f7a86; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; font-weight: 700;">
-            ${item.unit}
-          </div>
-        </div>
-        
-        <p style="color: #555; font-size: 15px; line-height: 1.6; margin: 0; font-weight: 500;">
-          ${item.description}
-        </p>
-      `;
-      
-      // Removed complex hover listeners as CSS handles the lift/shadow now
-      // Keeping border color change on hover for subtle effect
-      card.addEventListener('mouseenter', () => {
-        card.style.borderColor = `${item.color}40`;
-      });
-      card.addEventListener('mouseleave', () => {
-        card.style.borderColor = 'rgba(0,0,0,0.06)';
-      });
-
-      achievementsGrid.appendChild(card);
-    });
-
-    // Render Impact Cards
-    const impactGrid = document.getElementById('impact-grid');
-    impacts.forEach((item, index) => {
-      const card = document.createElement('div');
-      card.className = 'impact-card animate-card';
-      card.style.animationDelay = `${index * 0.1}s`;
-
-      card.innerHTML = `
-        <div class="impact-image-placeholder" style="background: ${item.color}08; border-bottom: 1px solid ${item.color}20;">
-          <div style="font-size: 48px; opacity: 0.5;">📷</div>
-          <span style="color: ${item.color}; font-size: 12px; font-family: monospace; letter-spacing: 2px; opacity: 0.7;">ADD IMAGE HERE</span>
-          <div class="impact-icon-badge" style="color: ${item.color};">
-            ${item.icon}
-          </div>
-        </div>
-        
-        <div class="impact-content">
-          <div class="impact-title-text" style="color: #2c3e50; font-weight: 800;">
-            ${item.title}
-          </div>
-          <p style="color: #555; font-size: 15px; line-height: 1.7; margin: 0; font-weight: 500;">
-            ${item.description}
-          </p>
-        </div>
-      `;
-
-       // Simple hover effect
-      card.addEventListener('mouseenter', () => {
-        card.style.borderColor = `${item.color}40`;
-      });
-      card.addEventListener('mouseleave', () => {
-        card.style.borderColor = 'rgba(0,0,0,0.06)';
-      });
-
-      impactGrid.appendChild(card);
-    });
-
-    // Intersection Observer for Animations
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.remove('animate-card');
-          entry.target.classList.add('fade-slide-up');
-          entry.target.style.opacity = 1;
-          
-          // Trigger number count up if it's an achievement card
-          const numberEl = entry.target.querySelector('.achiev-number');
-          if (numberEl && numberEl.innerText === "0") {
-            const target = parseInt(numberEl.getAttribute('data-target'));
-            animateValue(numberEl, 0, target, 2000);
-          }
-          
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.achiev-card, .impact-card').forEach(card => {
-      observer.observe(card);
-    });
-  });
+  }
+  window.addEventListener("scroll", reveal);
+  reveal();
 </script>
+
+
 
 
 
@@ -870,5 +736,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

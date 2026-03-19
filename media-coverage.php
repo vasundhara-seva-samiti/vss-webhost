@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>mission – Vasundhara Sewa Samiti</title>
+<title>Media Coverage – Vasundhara Sewa Samiti</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +98,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +129,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
+    <a class="nav-link" href="./gallery.php"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career.html"> 
+    <a class="nav-link" href="./career.php"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +203,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -220,60 +220,44 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="mission-hero">
-  <div class="mission-hero-inner">
-    <h2 class="mission-hero-title anchored">Mission and Vision</h2>
-  </div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Media Coverage</h1>
 </div>
 
-<div class="focus-wrapper">
-  <div class="about-container">
-    <div class="about-intro-text reveal">
-      <h3 style="color: #1a5c2a; margin-bottom: 1rem;" class="anchored">Our Vision</h3>
-      <div class="focus-subtitle-wrapper" style="border-top: none; padding-top: 0;">
-         <p style="font-size: 1.1rem; font-weight: 500;">To build an inclusive, just, and sustainable society where marginalized and rural communities are empowered, self-reliant, and able to lead dignified lives with equal access to opportunities, resources, and rights.</p>
-      </div>
-      
-      <h3 style="color: #1a5c2a; margin-bottom: 1rem; margin-top: 2rem;" class="anchored">Our Mission</h3>
-      <div class="focus-subtitle-wrapper" style="border-top: none; padding-top: 0;">
-        <p>To raise awareness and organize economically, socially, educationally, culturally, physically, and politically weaker sections, Dalits, women, the helpless, disabled, exploited, and deprived communities about their rights and entitlements, and to develop their own capabilities so that their intellectual and skill development can take place, enabling them to live life with self-respect.</p>
-      </div>
-    </div>
+
+
+<div class="quarto-title-meta">
+
     
-    <div class="about-intro-image reveal">
-      <img src="images/h2.jpeg" alt="Community development">
-    </div>
+  
+    
   </div>
-</div>
-
-<script>
-  function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("active");
-      }
-    }
-  }
-  window.addEventListener("scroll", reveal);
-  // Trigger once on load
-  reveal();
-</script>
+  
 
 
+</header>
+
+
+<section id="media-coverage" class="level2">
+<h2 class="anchored" data-anchor-id="media-coverage">Media Coverage</h2>
+<p>Add links to newspaper reports, TV coverage, digital stories, and public recognition of organizational work.</p>
+<p>Example format:</p>
+<ul>
+<li><a href="#">Article title</a></li>
+<li><a href="#">Press release title</a></li>
+<li><a href="#">Video coverage</a></li>
+</ul>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -713,5 +697,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

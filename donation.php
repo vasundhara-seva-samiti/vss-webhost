@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Our Team – Vasundhara Sewa Samiti</title>
+<title>donation – Vasundhara Sewa Samiti</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +70,371 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    /* font-family: 'DM Sans', sans-serif; */
+    /* background: #0a0a0f; */
+    /* color: #f0ede8; */
+    /* min-height: 100vh; */
+    /* overflow-x: hidden; */
+  }
+
+  /* Custom Dark Section for Donation Content */
+  .donation-dark-wrapper {
+     background: #0a0a0f;
+     color: #f0ede8;
+     font-family: 'DM Sans', sans-serif;
+     position: relative;
+     overflow: hidden;
+     width: 100vw;
+     margin-left: calc(50% - 50vw);
+     padding: 60px 0 80px;
+  }
+
+  /* Animated background inside wrapper */
+  .donation-dark-wrapper::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at 20% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(255, 120, 50, 0.05) 0%, transparent 40%),
+                radial-gradient(ellipse at 60% 80%, rgba(100, 160, 255, 0.04) 0%, transparent 40%);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .page-wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    margin-bottom: 72px;
+    animation: fadeDown 0.8s ease both;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #d4af37;
+    border: 1px solid rgba(212,175,55,0.35);
+    padding: 6px 18px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    font-weight: 700;
+    line-height: 1.15;
+    color: #f5f0e8;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 span {
+    color: #d4af37;
+  }
+
+  .hero p {
+    font-size: 1.05rem;
+    color: rgba(240,237,232,0.6);
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.75;
+  }
+
+  /* Section titles */
+  .section-label {
+    font-size: 10.5px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(212,175,55,0.2);
+  }
+
+  /* Cards grid */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 640px) {
+    .cards-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Card base */
+  .card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 16px;
+    padding: 32px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.3s;
+    animation: fadeUp 0.7s ease both;
+  }
+
+  .card:hover {
+    border-color: rgba(212,175,55,0.3);
+    transform: translateY(-3px);
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,175,55,0.4), transparent);
+  }
+
+  .card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-icon.gold { background: rgba(212,175,55,0.12); }
+  .card-icon.blue { background: rgba(100,180,255,0.1); }
+  .card-icon.green { background: rgba(80,220,130,0.1); }
+  .card-icon.purple { background: rgba(180,120,255,0.1); }
+
+  .card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #f5f0e8;
+    margin-bottom: 20px;
+  }
+
+  /* Detail rows */
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    gap: 12px;
+  }
+
+  .detail-row:last-child { border-bottom: none; }
+
+  .detail-label {
+    font-size: 0.78rem;
+    color: rgba(240,237,232,0.45);
+    font-weight: 400;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .detail-value {
+    font-size: 0.85rem;
+    color: #f0ede8;
+    font-weight: 500;
+    text-align: right;
+    word-break: break-all;
+  }
+
+  .copy-btn {
+    background: none;
+    border: 1px solid rgba(212,175,55,0.25);
+    color: #d4af37;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    font-family: 'DM Sans', sans-serif;
+    flex-shrink: 0;
+  }
+
+  .copy-btn:hover {
+    background: rgba(212,175,55,0.12);
+    border-color: #d4af37;
+  }
+
+  .copy-btn.copied {
+    color: #50dc82;
+    border-color: rgba(80,220,130,0.4);
+  }
+
+  /* UPI QR Card - full width */
+  .card-wide {
+    grid-column: 1 / -1;
+  }
+
+  .upi-inner {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 560px) {
+    .upi-inner { flex-direction: column; align-items: center; }
+  }
+
+  .qr-placeholder {
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .qr-placeholder svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .qr-label {
+    font-size: 10px;
+    color: rgba(240,237,232,0.35);
+    text-align: center;
+    margin-top: 8px;
+    letter-spacing: 0.05em;
+  }
+
+  .upi-details { flex: 1; }
+
+  /* Steps card */
+  .steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 4px;
+  }
+
+  .step {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .step-num {
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    background: rgba(212,175,55,0.12);
+    color: #d4af37;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .step-text {
+    font-size: 0.85rem;
+    color: rgba(240,237,232,0.65);
+    line-height: 1.6;
+    padding-top: 3px;
+  }
+
+  /* Trust bar */
+  .trust-bar {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+    margin-top: 52px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    animation: fadeUp 1s ease 0.4s both;
+  }
+
+  .trust-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .trust-icon { font-size: 22px; }
+
+  .trust-text {
+    font-size: 11px;
+    color: rgba(240,237,232,0.4);
+    letter-spacing: 0.06em;
+  }
+
+  /* Toast */
+  .toast {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    background: #1a1a25;
+    border: 1px solid rgba(212,175,55,0.3);
+    color: #f0ede8;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 0.83rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s;
+    z-index: 9999;
+    pointer-events: none;
+  }
+
+  .toast.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Animations */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .card:nth-child(1) { animation-delay: 0.1s; }
+  .card:nth-child(2) { animation-delay: 0.2s; }
+  .card:nth-child(3) { animation-delay: 0.3s; }
+  .card:nth-child(4) { animation-delay: 0.35s; }
+</style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const header = document.getElementById("quarto-header");
@@ -84,7 +449,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +463,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +485,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +494,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +529,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
+    <a class="nav-link" href="./gallery.php"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career.html"> 
+    <a class="nav-link" href="./career.php"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +568,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -220,44 +585,278 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Our Team</h1>
+
+
+
+<div class="donation-dark-wrapper">
+<div class="page-wrap">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-badge">💛 Make a Difference</div>
+    <h1>Support Our <span>Mission</span></h1>
+    <p>Your generosity helps us continue the work that matters. Every contribution — big or small — creates real impact.</p>
+  </div>
+
+  <!-- Bank Details Section -->
+  <div class="section-label">Bank Transfer</div>
+  <div class="cards-grid">
+
+    <!-- Savings Account Card -->
+    <div class="card">
+      <div class="card-icon gold">🏦</div>
+      <h3 class="anchored">Bank Account Details</h3>
+
+      <div class="detail-row">
+        <span class="detail-label">Account Name</span>
+        <span class="detail-value">Your Organization Name</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Account No.</span>
+        <div style="display:flex;align-items:center;gap:8px;justify-content:flex-end">
+          <span class="detail-value" id="acc-num">1234 5678 9012 3456</span>
+          <button class="copy-btn" onclick="copyText('1234567890123456', this)">Copy</button>
+        </div>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">IFSC Code</span>
+        <div style="display:flex;align-items:center;gap:8px;justify-content:flex-end">
+          <span class="detail-value" id="ifsc">SBIN0001234</span>
+          <button class="copy-btn" onclick="copyText('SBIN0001234', this)">Copy</button>
+        </div>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Account Type</span>
+        <span class="detail-value">Savings</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Bank Name</span>
+        <span class="detail-value">State Bank of India</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Branch</span>
+        <span class="detail-value">Main Branch, City</span>
+      </div>
+    </div>
+
+    <!-- How to donate steps -->
+    <div class="card">
+      <div class="card-icon blue">📋</div>
+      <h3 class="anchored">How to Donate via Bank</h3>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text">Open your bank's app or visit the nearest branch.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text">Choose <strong style="color:#f0ede8">NEFT / IMPS / RTGS</strong> transfer option.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text">Enter the account number and IFSC code from the card.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-text">Enter your donation amount and confirm the transfer.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">5</div>
+          <div class="step-text">Save the transaction ID and share it with us for acknowledgment.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- UPI Section -->
+  <div class="section-label" style="margin-top:36px">UPI Payment</div>
+  <div class="cards-grid">
+
+    <!-- UPI QR + Details wide card -->
+    <div class="card card-wide">
+      <div class="card-icon green">📱</div>
+      <h3 class="anchored">Pay via UPI — Instant &amp; Secure</h3>
+      <div class="upi-inner">
+
+        <!-- QR Code placeholder -->
+        <div>
+          <div class="qr-placeholder">
+            <!-- Simple SVG QR placeholder pattern -->
+            <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100" fill="white"></rect>
+              <!-- Corner squares -->
+              <rect x="5" y="5" width="25" height="25" fill="none" stroke="#000" stroke-width="4"></rect>
+              <rect x="10" y="10" width="15" height="15" fill="#000"></rect>
+              <rect x="70" y="5" width="25" height="25" fill="none" stroke="#000" stroke-width="4"></rect>
+              <rect x="75" y="10" width="15" height="15" fill="#000"></rect>
+              <rect x="5" y="70" width="25" height="25" fill="none" stroke="#000" stroke-width="4"></rect>
+              <rect x="10" y="75" width="15" height="15" fill="#000"></rect>
+              <!-- Data dots pattern -->
+              <rect x="38" y="5" width="5" height="5" fill="#000"></rect>
+              <rect x="48" y="5" width="5" height="5" fill="#000"></rect>
+              <rect x="58" y="5" width="5" height="5" fill="#000"></rect>
+              <rect x="38" y="15" width="5" height="5" fill="#000"></rect>
+              <rect x="58" y="15" width="5" height="5" fill="#000"></rect>
+              <rect x="48" y="25" width="5" height="5" fill="#000"></rect>
+              <rect x="5" y="38" width="5" height="5" fill="#000"></rect>
+              <rect x="15" y="38" width="5" height="5" fill="#000"></rect>
+              <rect x="25" y="48" width="5" height="5" fill="#000"></rect>
+              <rect x="5" y="58" width="5" height="5" fill="#000"></rect>
+              <rect x="35" y="35" width="5" height="5" fill="#000"></rect>
+              <rect x="45" y="45" width="5" height="5" fill="#000"></rect>
+              <rect x="55" y="35" width="5" height="5" fill="#000"></rect>
+              <rect x="65" y="45" width="5" height="5" fill="#000"></rect>
+              <rect x="75" y="35" width="5" height="5" fill="#000"></rect>
+              <rect x="85" y="45" width="5" height="5" fill="#000"></rect>
+              <rect x="35" y="55" width="5" height="5" fill="#000"></rect>
+              <rect x="55" y="55" width="5" height="5" fill="#000"></rect>
+              <rect x="75" y="55" width="5" height="5" fill="#000"></rect>
+              <rect x="45" y="65" width="5" height="5" fill="#000"></rect>
+              <rect x="65" y="65" width="5" height="5" fill="#000"></rect>
+              <rect x="85" y="65" width="5" height="5" fill="#000"></rect>
+              <rect x="35" y="75" width="5" height="5" fill="#000"></rect>
+              <rect x="45" y="85" width="5" height="5" fill="#000"></rect>
+              <rect x="65" y="75" width="5" height="5" fill="#000"></rect>
+              <rect x="75" y="85" width="5" height="5" fill="#000"></rect>
+              <rect x="85" y="75" width="5" height="5" fill="#000"></rect>
+            </svg>
+          </div>
+          <div class="qr-label">Replace with your UPI QR</div>
+        </div>
+
+        <!-- UPI details -->
+        <div class="upi-details">
+          <div class="detail-row">
+            <span class="detail-label">UPI ID</span>
+            <div style="display:flex;align-items:center;gap:8px;justify-content:flex-end">
+              <span class="detail-value">yourname@upi</span>
+              <button class="copy-btn" onclick="copyText('yourname@upi', this)">Copy</button>
+            </div>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Phone Pay / GPay</span>
+            <div style="display:flex;align-items:center;gap:8px;justify-content:flex-end">
+              <span class="detail-value">+91 98765 43210</span>
+              <button class="copy-btn" onclick="copyText('+919876543210', this)">Copy</button>
+            </div>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Registered Name</span>
+            <span class="detail-value">Your Organization Name</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Accepted Apps</span>
+            <span class="detail-value">GPay · PhonePe · Paytm · BHIM</span>
+          </div>
+
+          <div style="margin-top:20px;padding:14px;background:rgba(80,220,130,0.06);border:1px solid rgba(80,220,130,0.15);border-radius:10px;">
+            <p style="font-size:0.8rem;color:rgba(80,220,130,0.85);line-height:1.6;">
+              ✅ <strong>Instant transfer.</strong> Scan the QR code or enter the UPI ID in any payments app. Your donation reflects immediately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact / Acknowledgment -->
+    <div class="card">
+      <div class="card-icon purple">✉️</div>
+      <h3 class="anchored">Share Your Transaction</h3>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-num">📧</div>
+          <div class="step-text">Email your transaction screenshot to <strong style="color:#d4af37">donate@yourorg.com</strong></div>
+        </div>
+        <div class="step">
+          <div class="step-num">📞</div>
+          <div class="step-text">Or call us at <strong style="color:#d4af37">+91 98765 43210</strong> for any help.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">🎁</div>
+          <div class="step-text">We'll send you a donation receipt within 24 hours.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tax exemption note -->
+    <div class="card">
+      <div class="card-icon gold">🧾</div>
+      <h3 class="anchored">80G Tax Exemption</h3>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-num">📜</div>
+          <div class="step-text">Donations are eligible for <strong style="color:#d4af37">50% tax exemption</strong> under Section 80G of the Income Tax Act.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">🔢</div>
+          <div class="step-text">80G Reg. No: <strong style="color:#f0ede8">AAATX1234C/80G/2023</strong></div>
+        </div>
+        <div class="step">
+          <div class="step-num">📩</div>
+          <div class="step-text">Share your PAN card details with us to receive your 80G certificate.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Trust bar -->
+  <div class="trust-bar">
+    <div class="trust-item">
+      <span class="trust-icon">🔒</span>
+      <span class="trust-text">Secure Payments</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">🏛️</span>
+      <span class="trust-text">Registered NGO</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">🧾</span>
+      <span class="trust-text">80G Certified</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">💌</span>
+      <span class="trust-text">Receipt in 24hrs</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">🤝</span>
+      <span class="trust-text">Transparent Use</span>
+    </div>
+  </div>
+
+</div>
 </div>
 
+<!-- Toast notification -->
+<div class="toast" id="toast">✓ Copied to clipboard</div>
+
+<script>
+function copyText(text, btn) {
+  navigator.clipboard.writeText(text).then(() => {
+    const original = btn.textContent;
+    btn.textContent = '✓ Done';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = original;
+      btn.classList.remove('copied');
+    }, 2000);
+
+    const toast = document.getElementById('toast');
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 2500);
+  });
+}
+</script>
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
-<p>The team consists of field facilitators, thematic coordinators, and management staff working directly with village communities, community-based institutions, and local governance bodies.</p>
-<p>Add team details here:</p>
-<ul>
-<li>Name - Designation</li>
-<li>Name - Designation</li>
-<li>Name - Designation</li>
-</ul>
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -697,5 +1296,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

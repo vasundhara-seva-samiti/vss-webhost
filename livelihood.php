@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>career – Vasundhara Sewa Samiti</title>
+<title>livelihood – Vasundhara Sewa Samiti</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +98,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +129,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
+    <a class="nav-link" href="./gallery.php"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./career.html" aria-current="page"> 
+    <a class="nav-link" href="./career.php"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +203,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -225,181 +225,119 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Your Platform to Make a Difference</h1></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="career-hero-v3">
-  <div class="career-hero-overlay-container reveal-cv2">
-    
-    <div class="career-hero-divider"></div>
-    <p>At Vasundhara Sewa Samiti, you share the stage with passionate change-makers trying to solve the most complex social problems facing the communities.</p>
-    <p>By matching the talent with the right opportunities, we are shaping great employment experiences. If the idea of building a brighter tomorrow for the most vulnerable amongst us resonates with you, this is your platform to make a difference!</p>
-    
-    <a href="#open-positions" class="career-hero-btn">
-      <i class="bi bi-person-badge-fill"></i> Current Openings
-    </a>
+<div class="theme-hero theme-hero--livelihood">
+  <div class="focus-hero-inner">
+    <h2 class="focus-hero-title anchored">Livelihood</h2>
   </div>
 </div>
 
-<section class="career-apply-box reveal-cv2">
-  <h2 class="anchored">Did not find the right role?</h2>
-  <p>Share your profile and area of interest. Our team will reach out when a matching role opens.</p>
-  <a href="mailto:vsskb@rediffmail.com?subject=General%20Career%20Application">Send Your CV</a>
+<div class="focus-wrapper theme-detail-page">
+  <div class="focus-intro-container focus-intro-container--text-only">
+    <div class="focus-intro-text reveal">
+      <h2 class="anchored">Building Economic Security and Self-Reliance</h2>
+      <div class="section-divider"></div>
+      <div class="focus-subtitle-wrapper">
+<p>Land is the most fundamental livelihood resource. After Independence, Dalits were allocated land through government settlement processes, but much of that land is low-quality — sandy, uneven, rocky, and barely productive. More critically, in many cases this land has been encroached upon by upper-caste or more powerful neighbours, even while the title (patta) legally remains in the Dalit family’s name. This encroachment strips families of their only productive asset.</p>
+<p>Despite a wide range of government welfare programs and livelihood schemes, the majority of eligible Dalit and marginalized families in remote areas never access these entitlements. Through collective support, free facilitation, and practical livelihood models, Vasundhara Sewa Samiti works to strengthen long-term income security and resilience.</p>
+      </div>
+    </div>
+  </div>
+<section id="programs-under-livelihoods" class="level1">
+<h1>Programs Under Livelihoods</h1>
+<section id="land-rights-jameeni-atikraman-nivaran" class="level2">
+<h2 class="anchored" data-anchor-id="land-rights-jameeni-atikraman-nivaran">Land Rights — Jameeni Atikraman Nivaran</h2>
+<p>Land is the most fundamental livelihood resource. After Independence, Dalits were allocated land through government settlement processes, but much of that land is low-quality — sandy, uneven, rocky, and barely productive. More critically, in many cases this land has been encroached upon by upper-caste or more powerful neighbours, even while the title (patta) legally remains in the Dalit family’s name. This encroachment strips families of their only productive asset. Vasundhara Sewa Samiti takes up these cases through legal letters, Tehsildar interventions, and formal boundary demarcation processes, ensuring Dalit families reclaim control of the land that is rightfully and legally theirs.</p>
 </section>
-
-<style>
-:root {
-  --career-green: #1a5c2a;
-  --career-gold: #c8973a;
-  --career-dark: #122316;
-  --career-soft: #f0f7f0;
-}
-
-/* Animation Logic */
-.reveal-cv2 {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-.reveal-cv2.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.career-openings {
-  background: var(--career-soft);
-  padding: 52px 20px;
-}
-
-.career-section-head {
-  text-align: center;
-  max-width: 820px;
-  margin: 0 auto 26px;
-}
-
-.career-section-head p {
-  margin: 8px 0 0;
-  color: #47604b;
-  line-height: 1.7;
-}
-
-.career-openings-grid {
-  max-width: 1160px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.career-job-card {
-  background: #fff;
-  border: 1px solid #dce8dd;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 14px 28px rgba(14, 39, 21, 0.07);
-}
-
-.career-job-top {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  align-items: center;
-}
-
-.career-job-top h3 {
-  margin: 0;
-  color: var(--career-dark);
-  font-size: 1.2rem;
-}
-
-.career-job-top span {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #1f6a33;
-  background: #e6f2e8;
-  padding: 5px 10px;
-  border-radius: 999px;
-}
-
-.career-job-card p {
-  color: #4a5f4d;
-  margin: 10px 0;
-  line-height: 1.6;
-}
-
-.career-job-card ul {
-  margin: 0 0 12px;
-  padding-left: 18px;
-  color: #4a5f4d;
-  line-height: 1.6;
-}
-
-.career-job-card a,
-.career-apply-box a {
-  color: var(--career-green);
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.career-job-card a:hover,
-.career-apply-box a:hover {
-  text-decoration: underline;
-}
-
-.career-apply-box {
-  max-width: 1160px;
-  margin: 0 auto 64px;
-  background: linear-gradient(110deg, #f7faf7, #ebf3ec);
-  border: 1px solid #dce8dd;
-  border-radius: 16px;
-  padding: 28px 22px;
-  text-align: center;
-}
-
-.career-apply-box h2 {
-  margin: 0 0 10px;
-  color: var(--career-dark);
-}
-
-.career-apply-box p {
-  margin: 0 0 12px;
-  color: #4a5f4d;
-}
-
-@media (max-width: 1024px) {
-  .career-openings-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 768px) {
-  .career-openings {
-    padding-left: 14px;
-    padding-right: 14px;
-  }
-  .career-openings-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+<section id="access-to-government-welfare-schemes" class="level2">
+<h2 class="anchored" data-anchor-id="access-to-government-welfare-schemes">Access to Government Welfare Schemes</h2>
+<p>Despite a wide range of government welfare programs — pensions for widows, the elderly, and persons with disabilities; housing under Indira Awas Yojana; employment under NREGA; child support under Palanhar; and basic documentation like caste, domicile, and birth certificates — the majority of eligible Dalit and marginalized families in remote areas never access these entitlements. The barriers are many: lack of awareness, complex paperwork, middle-men demanding bribes, and sheer administrative distance. The organization’s Dalit Reference Centre fills this gap by providing free assistance — helping families fill forms, gather documents, engage with departments, and follow up until benefits are received. This work has enabled hundreds of families to access pensions, housing grants, employment cards, and legal identity documents they never had before.</p>
+</section>
+<section id="horticulture-development-bagwani-vikas" class="level2">
+<h2 class="anchored" data-anchor-id="horticulture-development-bagwani-vikas">Horticulture Development — Bagwani Vikas</h2>
+<p>Drought-proofing livelihoods requires finding crops and practices that can survive in the Thar’s harsh conditions. Vasundhara Sewa Samiti introduced horticulture demonstration models in selected villages — establishing small fruit and multipurpose plant gardens (ber, gunda, karounda, pomegranate, lemon) that produce fruit for food and income, and also generate fodder for livestock during drought periods. To support irrigation, 10-by-10 foot water tanks were constructed adjacent to each horticulture plot. These demonstration units serve as living proof that even in the desert, diversified, drought-resistant farming is possible — and they inspire neighboring farmers to adopt similar practices.</p>
+</section>
+<section id="seed-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="seed-distribution">Seed Distribution</h2>
+<p>Under the drought relief program conducted by the organization, considering the seed shortage for sowing among poor farmers in 9 selected villages, a survey of underprivileged farmers was conducted in all villages. Subsequently, high-quality, advanced variety seeds were distributed to them for free.</p>
+</section>
+<section id="construction-and-repair-of-drinking-water-tankas-tanklis-and-khadins" class="level2">
+<h2 class="anchored" data-anchor-id="construction-and-repair-of-drinking-water-tankas-tanklis-and-khadins">Construction and Repair of Drinking Water Tankas, Tanklis, and Khadins</h2>
+<p>Under the drought management program implemented by the organization, considering the issue of drinking water in selected villages, and with the aim of improving agriculture, introducing new techniques, and enhancing the livelihood of farmers, construction and repair work of tankas, tanklis, and khadins was carried out.</p>
+</section>
+<section id="education-development-program" class="level2">
+<h2 class="anchored" data-anchor-id="education-development-program">Education Development Program</h2>
+<p>To promote education, the organization is operating schools in three villages within the selected project area. These schools are located in areas where no government school is available within a 3-kilometer radius, and where people reside in remote, scattered hamlets. Most of the children studied belong to the SC/ST category.</p>
+<section id="in-addition-monthly-quarterly-and-annual-activities-are-organized-in-the-schools.-the-details-are-as-follows" class="level4">
+<h4 class="anchored" data-anchor-id="in-addition-monthly-quarterly-and-annual-activities-are-organized-in-the-schools.-the-details-are-as-follows">In addition, monthly, quarterly, and annual activities are organized in the schools. The details are as follows</h4>
+</section>
+</section>
+<section id="formation-of-the-school-development-and-management-committee-and-meetings" class="level2">
+<h2 class="anchored" data-anchor-id="formation-of-the-school-development-and-management-committee-and-meetings">Formation of the School Development and Management Committee and Meetings</h2>
+<p>At each school level, a School Development and Management Committee has been formed. Regular meetings are held monthly, during which school development activities are reviewed, challenges encountered during implementation are discussed, and future action plans are prepared with the participation of the members. Based on these action plans, activities are selected and implemented.</p>
+</section>
+<section id="national-festivals-and-co-curricular-activities" class="level2">
+<h2 class="anchored" data-anchor-id="national-festivals-and-co-curricular-activities">National Festivals and Co-curricular Activities</h2>
+<p>National festivals such as 26 January, 15 August, birth anniversaries of great personalities, and other important occasions are celebrated in schools with enthusiasm. In addition, a Bal Sabha (Children’s Assembly) is organized every Saturday, where children participate freely. Through these activities, children develop their art, skills, knowledge, and talents. At the same time, parents’ interest and trust in education also increase.</p>
+</section>
+<section id="educational-exposure-visits-for-children" class="level2">
+<h2 class="anchored" data-anchor-id="educational-exposure-visits-for-children">Educational Exposure Visits for Children</h2>
+<p>All schools organize educational tours for students at least once a year to different places. These visits help children gain new knowledge, understand different locations, and enhance their overall learning experience. It also promotes social understanding and practical learning among children.</p>
+</section>
+<section id="annual-parents-meeting-and-declaration-of-results" class="level2">
+<h2 class="anchored" data-anchor-id="annual-parents-meeting-and-declaration-of-results">Annual Parents’ Meeting and Declaration of Results</h2>
+<p>Every school organizes an annual parents’ meeting in the last month of the academic session. During this meeting, the complete report of the school is presented, including income and expenditure, teaching materials, and the annual progress report. Along with this, the academic results of the students are also announced. This process ensures transparency and accountability within the school system and strengthens the relationship between the school and parents.</p>
+</section>
+<section id="maintenance-of-school-records" class="level2">
+<h2 class="anchored" data-anchor-id="maintenance-of-school-records">Maintenance of School Records</h2>
+<p>All necessary records in schools are maintained regularly. These include registers, files, cash books, ledger books, receipt books, and admission forms. Additionally, monthly, quarterly, half-yearly, and annual reports of all school-related programs and activities are prepared to ensure timely and systematic implementation of work.</p>
+</section>
+<section id="free-health-camps-swasthya-shivir" class="level2">
+<h2 class="anchored" data-anchor-id="free-health-camps-swasthya-shivir">Free Health Camps — Swasthya Shivir</h2>
+<p>Access to quality healthcare is virtually non-existent for communities in the remote dhanis of Barmer. Specialist doctors rarely visit these areas. During drought periods, when families’ finances are most strained, illness becomes a devastating economic shock — forcing poor families to sell livestock or pledge jewellery for medical expenses. Vasundhara Sewa Samiti organizes free health camps in villages, bringing specialist doctors directly to the community. Patients receive free medical consultations, free medicines, and referrals where needed. Para health workers trained by the organization provide follow-up care at the village level between camps, ensuring continuity of care.</p>
+</section>
+<section id="vaccination-and-mother-child-health-support" class="level2">
+<h2 class="anchored" data-anchor-id="vaccination-and-mother-child-health-support">Vaccination and Mother-Child Health Support</h2>
+<p>Child mortality and maternal health outcomes in the working area are severely affected by lack of awareness and access to immunization services. The organization trains and deploys Para Health Workers in all selected villages to identify children eligible for vaccination, track pregnant women, and support Mother-Child Health and Nutrition Days organized by the government. Through this sustained grassroots health infrastructure, communities are connected to the immunization system, institutional delivery is promoted, and women receive health information that protects both their lives and those of their children.</p>
+</section>
+<section id="livestock-health-camps-pashu-shivir" class="level2">
+<h2 class="anchored" data-anchor-id="livestock-health-camps-pashu-shivir">Livestock Health Camps — Pashu Shivir</h2>
+<p>For poor communities in the Thar Desert, goats are often called the ‘cow of the poor’ — the primary fallback asset when agricultural income fails. Drought conditions create fodder shortages that lead to widespread livestock illness and death, devastating family incomes. Vasundhara Sewa Samiti organizes free livestock health camps in partnership with the government’s Animal Husbandry Department, bringing veterinary services directly to communities that would otherwise have no access. Animals are examined, treated, and vaccinated, and community members receive guidance on drought-period animal care. By protecting livestock health, the organization directly protects the economic survival of the most vulnerable families.</p>
+</section>
+<section id="self-help-groups-swayam-sahayata-samuh" class="level2">
+<h2 class="anchored" data-anchor-id="self-help-groups-swayam-sahayata-samuh">Self-Help Groups — Swayam Sahayata Samuh</h2>
+<p>Economic empowerment for rural women requires more than individual support — it requires collective financial strength, shared learning, and access to credit on fair terms. Vasundhara Sewa Samiti has built a large network of women’s Self-Help Groups across Balotra and Siwana blocks, providing women with a platform for regular savings, access to bank credit, skill development, and income-generating activities. SHG members receive training and resources for livelihood activities including goat rearing, camel cart business, tailoring, and soap-soda making. These groups also serve as social support networks where women discuss personal challenges, domestic violence, children’s education, and community issues — making them simultaneously economic and social empowerment institutions.</p>
+</section>
+<section id="goat-rearing-program-bakri-palan-karyakram" class="level2">
+<h2 class="anchored" data-anchor-id="goat-rearing-program-bakri-palan-karyakram">Goat Rearing Program — Bakri Palan Karyakram</h2>
+<p>Goat rearing is the most accessible livelihood option for women and Dalit families with no land or capital. The organization provides below-market-rate loans through women’s SHGs specifically for purchasing goats, enabling the poorest families to build a productive asset that generates income, provides nutrition, and serves as an emergency financial reserve. By channeling low-interest credit to women for goat rearing, the organization helps break the cycle of dependency on moneylenders and ensures that the benefits of this livelihood support reach the most marginalized women directly.</p>
+</section>
+<section id="nrega-employment-rights-support" class="level2">
+<h2 class="anchored" data-anchor-id="nrega-employment-rights-support">NREGA — Employment Rights Support</h2>
+<p>The National Rural Employment Guarantee Act guarantees 100 days of paid employment per year to rural households — but in practice, many eligible families in remote areas lack job cards, are unaware of their rights, or face administrative barriers to registration and work allocation. Vasundhara Sewa Samiti actively supports community members to obtain job cards and apply for employment under NREGA, ensuring they access the wages they are legally entitled to. The organization also monitors NREGA work quality and payment to prevent corruption and wage theft, which are common problems in the region.</p>
+</section></section></div>
 
 <script>
-(function () {
-  const revealEls = Array.from(document.querySelectorAll('.reveal-cv2'));
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
-    });
-  }, { threshold: 0.18 });
-
-  revealEls.forEach((el) => observer.observe(el));
-})();
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", reveal);
+  reveal();
 </script>
+
+
 
 
 
@@ -841,5 +779,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

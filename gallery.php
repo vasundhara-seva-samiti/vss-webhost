@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +98,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +129,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./gallery.html" aria-current="page"> 
+    <a class="nav-link active" href="./gallery.php" aria-current="page"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career.html"> 
+    <a class="nav-link" href="./career.php"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +203,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -244,47 +244,47 @@ ul.task-list li input[type="checkbox"] {
   </header>
   <div class="vgx-masonry">
     <article class="vgx-item" data-category="event">
-      <img src="images/m2.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m2.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m5.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m5.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m6.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m6.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m7.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m7.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m8.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m8.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m13.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m13.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m15.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m15.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m17.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m17.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m19.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m19.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m21.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m21.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m22.jpeg" alt="International Women's Day Celebration">
+      <img src="./images/m22.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
   </div>
@@ -301,47 +301,47 @@ ul.task-list li input[type="checkbox"] {
   </header>
   <div class="vgx-masonry">
     <article class="vgx-item" data-category="event">
-      <img src="images/t1.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t1.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t9.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t9.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t10.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t10.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/h1.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/h1.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t13.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t13.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t14.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t14.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t15.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t15.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t17.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t17.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t19.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t19.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t20.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t20.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/t21.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
+      <img src="./images/t21.jpeg" alt="Two-Day Training Program on Land Rights and Social Justice">
       <div class="vgx-overlay"><h3 class="anchored">Two-Day Training Program</h3><p>Land Rights &amp; Social Justice</p></div>
     </article>
   </div>
@@ -359,47 +359,47 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="vgx-masonry" id="vgxGrid">
     <article class="vgx-item vgx-wide" data-category="" data-index="0">
-      <img src="images/g1.jpeg">
+      <img src="./images/g1.jpeg">
       <div class="vgx-overlay"><h3 class="anchored">Masks Packed for Routes</h3><p>Distribution</p></div>
     </article>
     <article class="vgx-item" data-category="" data-index="1">
-      <img src="images/g2.jpeg" alt="">
+      <img src="./images/g2.jpeg" alt="">
       <div class="vgx-overlay"><h3 class="anchored">Door-to-Door Supply</h3><p>Distribution</p></div>
     </article>
     <article class="vgx-item" data-category="" data-index="2">
-      <img src="images/g3.jpeg" alt="">
+      <img src="./images/g3.jpeg" alt="">
       <div class="vgx-overlay"><h3 class="anchored">Family Receives Masks</h3><p>Community</p></div>
     </article>
     <article class="vgx-item" data-category="operations" data-index="5">
-      <img src="images/g6.jpeg" alt="Food">
+      <img src="./images/g6.jpeg" alt="Food">
       <div class="vgx-overlay"><h3 class="anchored">Food distributor</h3><p>Operations</p></div>
     </article>
     <article class="vgx-item" data-category="volunteers" data-index="8">
-      <img src="images/g9.jpeg" alt="Mask stitching in progress">
+      <img src="./images/g9.jpeg" alt="Mask stitching in progress">
       <div class="vgx-overlay"><h3 class="anchored">Mask Stitching</h3><p>Volunteers</p></div>
     </article>
     <article class="vgx-item" data-category="distribution" data-index="9">
-      <img src="images/g10.jpeg" alt="Distribution queue">
+      <img src="./images/g10.jpeg" alt="Distribution queue">
       <div class="vgx-overlay"><h3 class="anchored">Distribution Line</h3><p>Distribution</p></div>
     </article>
     <article class="vgx-item" data-category="community" data-index="10">
-      <img src="images/g11.jpeg" alt="Volunteer handing over mask">
+      <img src="./images/g11.jpeg" alt="Volunteer handing over mask">
       <div class="vgx-overlay"><h3 class="anchored">Mask Handover</h3><p>Community</p></div>
     </article>
     <article class="vgx-item" data-category="operations" data-index="11">
-      <img src="images/g12.jpeg" alt="Health worker supported with masks">
+      <img src="./images/g12.jpeg" alt="Health worker supported with masks">
       <div class="vgx-overlay"><h3 class="anchored">Health Worker Support</h3><p>Operations</p></div>
     </article>
     <article class="vgx-item" data-category="community" data-index="12">
-      <img src="images/g13.jpeg" alt="Awareness session about masks">
+      <img src="./images/g13.jpeg" alt="Awareness session about masks">
       <div class="vgx-overlay"><h3 class="anchored">Awareness Session</h3><p>Community</p></div>
     </article>
     <article class="vgx-item" data-category="community" data-index="13">
-      <img src="images/g14.jpeg" alt="Village meeting for mask safety">
+      <img src="./images/g14.jpeg" alt="Village meeting for mask safety">
       <div class="vgx-overlay"><h3 class="anchored">Village Meeting</h3><p>Community</p></div>
     </article>
     <article class="vgx-item" data-category="volunteers" data-index="14">
-      <img src="images/g15.jpeg" alt="Group of volunteers with masks">
+      <img src="./images/g15.jpeg" alt="Group of volunteers with masks">
       <div class="vgx-overlay"><h3 class="anchored">Volunteer Team</h3><p>Volunteers</p></div>
     </article>
   </div>
@@ -420,7 +420,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="vgx-material-grid">
     <article class="vgx-material-card">
       <h3 class="anchored">Mask Distribution Strategy Note</h3>
-      <a href="blog.html" aria-label="Read more: Mask Distribution Strategy Note">
+      <a href="blog.php" aria-label="Read more: Mask Distribution Strategy Note">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -430,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
     <article class="vgx-material-card">
       <h3 class="anchored">Community Awareness Brief</h3>
-      <a href="media-coverage.html" aria-label="Read more: Community Awareness Brief">
+      <a href="media-coverage.php" aria-label="Read more: Community Awareness Brief">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -440,7 +440,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
     <article class="vgx-material-card">
       <h3 class="anchored">Volunteer Safety Protocol</h3>
-      <a href="contact.html" aria-label="Read more: Volunteer Safety Protocol">
+      <a href="contact.php" aria-label="Read more: Volunteer Safety Protocol">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -450,7 +450,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
     <article class="vgx-material-card">
       <h3 class="anchored">Impact Snapshot</h3>
-      <a href="achievements.html" aria-label="Read more: Impact Snapshot">
+      <a href="achievements.php" aria-label="Read more: Impact Snapshot">
         <span aria-hidden="true">Read more</span>
         <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 12h14"></path>
@@ -1382,5 +1382,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

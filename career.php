@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contact – Vasundhara Sewa Samiti</title>
+<title>career – Vasundhara Sewa Samiti</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="./site_libs/quarto-nav/headroom.min.js"></script>
+<script src="./site_libs/clipboard/clipboard.min.js"></script>
+<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="./site_libs/quarto-search/fuse.min.js"></script>
+<script src="./site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d0504dda7e794e718024701739f45012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="./site_libs/quarto-html/popper.min.js"></script>
+<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="./site_libs/quarto-html/anchor.min.js"></script>
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="donation.html" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -98,17 +98,17 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.php" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo light-content">
     <img src="./images/logo.png" alt="Vasundhara Sewa Samiti" class="navbar-logo dark-content">
     </a>
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.php"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,31 +129,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="./about.php">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mission.html">
+    <a class="dropdown-item" href="./mission.php">
  <span class="dropdown-text">Mission and Vision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./secretary-desk.html">
+    <a class="dropdown-item" href="./secretary-desk.php">
  <span class="dropdown-text">Secretary Desk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./board.html#board">
+    <a class="dropdown-item" href="./board.php#board">
  <span class="dropdown-text">Board</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html#team">
+    <a class="dropdown-item" href="./team.php#team">
  <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.php">
  <span class="dropdown-text">Achievements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media-coverage.html">
+    <a class="dropdown-item" href="./media-coverage.php">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
     </ul>
@@ -164,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
-    <a class="dropdown-item" href="./focusareas.html">
+    <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./basicright.html">
+    <a class="dropdown-item" href="./basicright.php">
  <span class="dropdown-text">Right Based</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./livelihood.html">
+    <a class="dropdown-item" href="./livelihood.php">
  <span class="dropdown-text">Livelihood</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./disaster.html">
+    <a class="dropdown-item" href="./disaster.php">
  <span class="dropdown-text">Disaster Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="./capacity.php">
  <span class="dropdown-text">Capacity Building</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
+    <a class="nav-link" href="./gallery.php"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.php"> 
 <span class="menu-text">Blog / News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career.html"> 
+    <a class="nav-link active" href="./career.php" aria-current="page"> 
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,11 +203,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-get-involved">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="./contact.php">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./donation.html">
+    <a class="dropdown-item" href="./donation.php">
  <span class="dropdown-text">Donate Now</span></a>
   </li>  
     </ul>
@@ -225,462 +225,179 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Your Platform to Make a Difference</h1></header>
 
 
 
 
-<div class="about-hero">
-  <div class="about-hero-inner">
-    <h2 class="about-hero-title anchored">Contact Us</h2>
+<div class="career-hero-v3">
+  <div class="career-hero-overlay-container reveal-cv2">
+    
+    <div class="career-hero-divider"></div>
+    <p>At Vasundhara Sewa Samiti, you share the stage with passionate change-makers trying to solve the most complex social problems facing the communities.</p>
+    <p>By matching the talent with the right opportunities, we are shaping great employment experiences. If the idea of building a brighter tomorrow for the most vulnerable amongst us resonates with you, this is your platform to make a difference!</p>
+    
+    <a href="#open-positions" class="career-hero-btn">
+      <i class="bi bi-person-badge-fill"></i> Current Openings
+    </a>
   </div>
 </div>
 
-<section class="vct-call-strip vct-reveal">
-  <p>
-    Call us for more information
-    <a href="tel:+919672499564">+91 96724 99564</a>
-  </p>
-</section>
-
-<section class="vct-map-wrap page-columns page-full">
-  <div class="vct-map-frame" aria-label="Office location map">
-    <iframe title="Vasundhara Sewa Samiti Location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Vasundhara+Sewa+Samiti,+Baba+Ramdev+Colony,+Nagana+Road,+Kalyanpur,+Balotra,+Rajasthan+344026&amp;output=embed">
-    </iframe>
-  </div>
-
-  <aside class="vct-office-card vct-reveal" aria-label="Office details">
-    <h3 class="anchored">Our Office</h3>
-
-    <div class="vct-detail-row">
-      <span class="vct-icon">📍</span>
-      <p>Vasundhara Sewa Samiti, Baba Ramdev Colony, Near Airtel Tower, Nagana Road, Kalyanpur, Balotra District, Rajasthan - 344026</p>
-    </div>
-
-    <div class="vct-detail-row">
-      <span class="vct-icon">☎</span>
-      <p><a href="tel:+919672499564">+91 96724 99564</a></p>
-    </div>
-
-    <div class="vct-detail-row">
-      <span class="vct-icon">✉</span>
-      <p><a href="mailto:vsskb@rediffmail.com">vsskb@rediffmail.com</a></p>
-    </div>
-
-    <div class="vct-detail-row">
-      <span class="vct-icon">🔗</span>
-      <p><a href="https://maps.google.com/?q=Vasundhara+Sewa+Samiti+Kalyanpur+Balotra" target="_blank" rel="noopener">Open in Google Maps</a></p>
-    </div>
-  </aside>
-</section>
-
-<!-- Contact Form Section -->
-<section class="vct-form-section" style="display:none;">
-  <div class="vct-shape-top-left"></div>
-  <div class="vct-shape-bottom-right"></div>
-  
-  <div class="vct-form-container vct-reveal">
-    <h2 class="vct-form-title anchored">Feel free to get in touch with us</h2>
-    <p class="vct-form-subtitle">Email us with any questions or inquiries or call. We would be happy to answer your question and setup a meeting with you.</p>
-    
-    <form name="contact" method="POST" data-netlify="true" class="vct-contact-form">
-      <div class="vct-form-row">
-        <input type="text" name="name" placeholder="Name" required="">
-        <input type="email" name="email" placeholder="E-mail" required="">
-      </div>
-      
-      <div class="vct-form-row">
-        <input type="text" name="subject" placeholder="Subject" class="full-width" required="">
-      </div>
-      
-      <div class="vct-form-row">
-        <input type="tel" name="phone" placeholder="Phone/Mobile">
-        <input type="text" name="city" placeholder="City">
-      </div>
-      
-      <div class="vct-form-row">
-        <textarea name="message" placeholder="Message" rows="5" required=""></textarea>
-      </div>
-      
-      <div class="vct-form-submit">
-        <button type="submit">Send message</button>
-      </div>
-    </form>
-  </div>
-</section>
-
-<section class="vct-contact-cards">
-  <div class="vct-card vct-reveal">
-    <h4 class="anchored">Email Support</h4>
-    <p>For partnerships, reports, and documentation requests.</p>
-    <a href="mailto:vsskb@rediffmail.com">Send Email</a>
-  </div>
-
-  <div class="vct-card vct-reveal">
-    <h4 class="anchored">Phone Support</h4>
-    <p>Reach us during working hours for urgent coordination.</p>
-    <a href="tel:+919672499564">Call Now</a>
-  </div>
-
-  <div class="vct-card vct-reveal">
-    <h4 class="anchored">Office Visit</h4>
-    <p>Plan an in-person visit to discuss field collaboration.</p>
-    <a href="https://maps.google.com/?q=Vasundhara+Sewa+Samiti+Kalyanpur+Balotra" target="_blank" rel="noopener">Get Directions</a>
-  </div>
+<section class="career-apply-box reveal-cv2">
+  <h2 class="anchored">Did not find the right role?</h2>
+  <p>Share your profile and area of interest. Our team will reach out when a matching role opens.</p>
+  <a href="mailto:vsskb@rediffmail.com?subject=General%20Career%20Application">Send Your CV</a>
 </section>
 
 <style>
-.vct-call-strip {
-  background: #f1f3f2;
-  padding: 34px 18px;
-  text-align: center;
-  border-bottom: 1px solid #e3e7e4;
+:root {
+  --career-green: #1a5c2a;
+  --career-gold: #c8973a;
+  --career-dark: #122316;
+  --career-soft: #f0f7f0;
 }
 
-.vct-call-strip p {
-  margin: 0;
-  color: #2c3330;
-  font-size: clamp(1.2rem, 2.5vw, 2rem);
-  font-weight: 700;
-  font-family: system-ui, -apple-system, sans-serif; /* Simple font for contact no */
-}
-
-.vct-call-strip a {
-  color: #1a5c2a;
-  text-decoration: none;
-  margin-left: 8px;
-}
-
-.vct-call-strip a:hover {
-  color: #0f441d;
-  text-decoration: underline;
-}
-
-.vct-map-wrap {
-  position: relative;
-  width: 100%;
-  min-height: 560px;
-  background: #d9e2dc;
-  overflow: hidden;
-}
-
-.vct-map-frame {
-  position: absolute;
-  inset: 0;
-}
-
-.vct-map-frame iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  filter: saturate(1.02) contrast(1.03);
-}
-
-.vct-office-card {
-  position: absolute;
-  right: 6%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: min(360px, calc(100% - 32px));
-  background: linear-gradient(160deg, rgba(38, 150, 217, 0.92), rgba(23, 123, 184, 0.95));
-  color: #fff;
-  padding: 28px 22px;
-  border-radius: 6px;
-  box-shadow: 0 20px 42px rgba(5, 36, 55, 0.32);
-  backdrop-filter: blur(2px);
-}
-
-.vct-office-card h3 {
-  margin: 0 0 14px;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 2rem;
-  line-height: 1;
-}
-
-.vct-detail-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 12px;
-}
-
-.vct-detail-row:last-child {
-  margin-bottom: 0;
-}
-
-.vct-icon {
-  display: inline-block;
-  width: 22px;
-  line-height: 1.25;
-  font-size: 1rem;
-}
-
-.vct-detail-row p {
-  margin: 0;
-  line-height: 1.45;
-  font-size: 1rem;
-}
-
-.vct-detail-row a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.vct-detail-row a:hover {
-  text-decoration: underline;
-}
-
-.vct-contact-cards {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 44px 20px 70px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  background: #f0f7f0;
-}
-
-.vct-card {
-  background: #fff;
-  border: 1px solid #dde8de;
-  border-radius: 12px;
-  padding: 22px;
-  box-shadow: 0 12px 28px rgba(18, 44, 24, 0.07);
-  transition: transform 0.24s ease, box-shadow 0.24s ease;
-}
-
-.vct-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 32px rgba(18, 44, 24, 0.12);
-}
-
-.vct-card h4 {
-  margin: 0 0 8px;
-  color: #1a2e1e;
-  font-size: 1.2rem;
-}
-
-.vct-card p {
-  margin: 0 0 12px;
-  color: #4a5f4d;
-  line-height: 1.6;
-}
-
-.vct-card a {
-  color: #1a5c2a;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.vct-card a:hover {
-  text-decoration: underline;
-}
-
-.vct-reveal {
+/* Animation Logic */
+.reveal-cv2 {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
-.vct-reveal.is-visible {
+.reveal-cv2.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-@media (max-width: 1024px) {
-  .vct-office-card {
-    right: 3%;
-    width: min(330px, calc(100% - 24px));
-  }
+.career-openings {
+  background: var(--career-soft);
+  padding: 52px 20px;
+}
 
-  .vct-contact-cards {
+.career-section-head {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 26px;
+}
+
+.career-section-head p {
+  margin: 8px 0 0;
+  color: #47604b;
+  line-height: 1.7;
+}
+
+.career-openings-grid {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.career-job-card {
+  background: #fff;
+  border: 1px solid #dce8dd;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(14, 39, 21, 0.07);
+}
+
+.career-job-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+.career-job-top h3 {
+  margin: 0;
+  color: var(--career-dark);
+  font-size: 1.2rem;
+}
+
+.career-job-top span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1f6a33;
+  background: #e6f2e8;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.career-job-card p {
+  color: #4a5f4d;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.career-job-card ul {
+  margin: 0 0 12px;
+  padding-left: 18px;
+  color: #4a5f4d;
+  line-height: 1.6;
+}
+
+.career-job-card a,
+.career-apply-box a {
+  color: var(--career-green);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.career-job-card a:hover,
+.career-apply-box a:hover {
+  text-decoration: underline;
+}
+
+.career-apply-box {
+  max-width: 1160px;
+  margin: 0 auto 64px;
+  background: linear-gradient(110deg, #f7faf7, #ebf3ec);
+  border: 1px solid #dce8dd;
+  border-radius: 16px;
+  padding: 28px 22px;
+  text-align: center;
+}
+
+.career-apply-box h2 {
+  margin: 0 0 10px;
+  color: var(--career-dark);
+}
+
+.career-apply-box p {
+  margin: 0 0 12px;
+  color: #4a5f4d;
+}
+
+@media (max-width: 1024px) {
+  .career-openings-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 768px) {
-  .vct-map-wrap {
-    min-height: 660px;
+  .career-openings {
+    padding-left: 14px;
+    padding-right: 14px;
   }
-
-  .vct-office-card {
-    left: 50%;
-    right: auto;
-    top: auto;
-    bottom: 14px;
-    transform: translateX(-50%);
-    width: calc(100% - 26px);
-    padding: 20px 16px;
-  }
-
-  .vct-office-card h3 {
-    font-size: 1.7rem;
-  }
-
-  .vct-contact-cards {
+  .career-openings-grid {
     grid-template-columns: 1fr;
-    padding: 34px 14px 52px;
-  }
-}
-
-/* Contact Form Styles */
-.vct-form-section {
-  position: relative;
-  background: #fff;
-  padding: 80px 20px;
-  overflow: hidden;
-  min-height: 800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.vct-shape-top-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50vw;
-  height: 50vw;
-  background: #6bcbf8;
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-  z-index: 1;
-}
-
-.vct-shape-bottom-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50vw;
-  height: 50vw;
-  background: #3c5687;
-  clip-path: polygon(100% 0, 100% 100%, 0 100%);
-  z-index: 1;
-}
-
-.vct-form-container {
-  position: relative;
-  z-index: 10;
-  max-width: 800px;
-  width: 100%;
-  background: transparent;
-  text-align: center;
-}
-
-.vct-form-title {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.vct-form-subtitle {
-  font-family: system-ui, -apple-system, sans-serif;
-  color: #555;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 3rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.vct-contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.vct-form-row {
-  display: flex;
-  gap: 20px;
-}
-
-.vct-form-row input,
-.vct-form-row textarea {
-  width: 100%;
-  padding: 14px 16px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 0.95rem;
-  color: #333;
-  background: #fff;
-  transition: border-color 0.2s;
-}
-
-.vct-form-row input:focus,
-.vct-form-row textarea:focus {
-  outline: none;
-  border-color: #2fa4d7;
-}
-
-.vct-form-row input::placeholder,
-.vct-form-row textarea::placeholder {
-  color: #aaa;
-}
-
-.full-width {
-  width: 100%;
-}
-
-.vct-form-submit {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.vct-form-submit button {
-  background-color: #2fa4d7;
-  color: #fff;
-  border: none;
-  padding: 12px 32px;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.vct-form-submit button:hover {
-  background-color: #258bb8;
-}
-
-@media (max-width: 768px) {
-  .vct-form-row {
-    flex-direction: column;
-    gap: 14px;
-  }
-  
-  .vct-shape-top-left {
-    width: 80vw;
-    height: 60vw;
-  }
-  
-  .vct-shape-bottom-right {
-    width: 80vw;
-    height: 60vw;
-  }
-  
-  .vct-form-title {
-    font-size: 2rem;
   }
 }
 </style>
 
 <script>
 (function () {
-  const revealItems = Array.from(document.querySelectorAll('.vct-reveal'));
-
+  const revealEls = Array.from(document.querySelectorAll('.reveal-cv2'));
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
       entry.target.classList.add('is-visible');
       observer.unobserve(entry.target);
     });
-  }, { threshold: 0.2 });
+  }, { threshold: 0.18 });
 
-  revealItems.forEach((item) => observer.observe(item));
+  revealEls.forEach((el) => observer.observe(el));
 })();
 </script>
 
@@ -1124,5 +841,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

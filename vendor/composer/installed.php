@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'vss-webhost/static-site',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'b3a27ca4eee88db4e10dd2a0cc88871314dd2493',
+        'name' => 'vasundhara-sewa-samiti/website',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'f7c0164c81a3ca4251b4ee46e14e93eb1730f448',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'vss-webhost/static-site' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'b3a27ca4eee88db4e10dd2a0cc88871314dd2493',
+        'vasundhara-sewa-samiti/website' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f7c0164c81a3ca4251b4ee46e14e93eb1730f448',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
