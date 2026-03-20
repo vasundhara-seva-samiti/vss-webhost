@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-focus-areas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Focus Areas</span>
+ <span class="menu-text">Work Areas</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
@@ -597,7 +597,7 @@ ul.task-list li input[type="checkbox"] {
         </article>
 
         <article class="impact-story-card">
-          <img src="./images/of.jpeg" alt="Government Participation">
+          <img src="./images/off.jpeg" alt="Government Participation">
           <div class="impact-story-body">
             <h3 class="anchored">Participation in Government Institutions</h3>
             <p>Improved participation of marginalized communities in government institutions and committees, ensuring their voices shape policy and local governance decisions.</p>

@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-focus-areas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Focus Areas</span>
+ <span class="menu-text">Work Areas</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
@@ -291,19 +291,19 @@ ul.task-list li input[type="checkbox"] {
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const achievements = [
-      { id: 1, number: "1,200", unit: "Bigha", description: "Agricultural land freed from encroachment for the Dalit community", icon: "🌾", color: "#e86c3a" },
-      { id: 2, number: "200", unit: "Families", description: "Deprived families assisted in getting residential land titles (Pattas)", icon: "🏠", color: "#3a7de8" },
-      { id: 3, number: "1,703", unit: "People", description: "Received justice under the Atrocities Prevention Act", icon: "⚖️", color: "#6c3ae8" },
-      { id: 4, number: "5,000", unit: "Applicants", description: "People helped to apply for NREGA work", icon: "📋", color: "#3ab87d" },
-      { id: 5, number: "427", unit: "Volunteers", description: "Trained volunteers actively doing advocacy work at village level", icon: "🤝", color: "#e8a63a" },
+      { id: 1, number: "1,200", unit: "Bigha", description: "Agricultural land freed from encroachment for the Dalit community", icon: "🌾", color: "#e86c3a", image: "./images/bigha.jpeg", imageAlt: "Agricultural Land Freed" },
+      { id: 2, number: "200", unit: "Families", description: "Deprived families assisted in getting residential land titles (Pattas)", icon: "🏠", color: "#3a7de8", image: "./images/vulne.jpeg", imageAlt: "Residential Land Titles" },
+      { id: 3, number: "1,703", unit: "People", description: "Received justice under the Atrocities Prevention Act", icon: "⚖️", color: "#6c3ae8", image: "./images/any.jpg", imageAlt: "Justice under Atrocities Act" },
+      { id: 4, number: "5,000", unit: "Applicants", description: "People helped to apply for NREGA work", icon: "📋", color: "#3ab87d", image: "./images/narega.jpeg", imageAlt: "NREGA Work Applications" },
+      { id: 5, number: "427", unit: "Volunteers", description: "Trained volunteers actively doing advocacy work at village level", icon: "🤝", color: "#e8a63a", image: "./images/cap.jpeg", imageAlt: "Trained Community Volunteers" },
     ];
 
     const impacts = [
-      { id: 1, title: "Reduced Discrimination", description: "Increased access of Dalit community to public services and public places; discrimination significantly reduced.", icon: "✊", color: "#e84040" },
-      { id: 2, title: "Government Inclusion", description: "Deprived communities gained access to government departments; many became active members of government committees.", icon: "🏛️", color: "#3a7de8" },
-      { id: 3, title: "Media Recognition", description: "Recognition and visibility increased in both electronic and print media.", icon: "📺", color: "#8e3ae8" },
-      { id: 4, title: "Women Empowerment", description: "Gender discrimination reduced; women's participation in organizations increased and their self-confidence grew.", icon: "👩", color: "#e83aaa" },
-      { id: 5, title: "Democratic Participation", description: "210 people elected as public representatives in the three-tier Panchayati Raj system.", icon: "🗳️", color: "#3ab87d" },
+      { id: 1, title: "Reduced Discrimination", description: "Increased access of Dalit community to public services and public places; discrimination significantly reduced.", icon: "✊", color: "#e84040", image: "./images/soc.jpg", imageAlt: "Community Access" },
+      { id: 2, title: "Government Inclusion", description: "Deprived communities gained access to government departments; many became active members of government committees.", icon: "🏛️", color: "#3a7de8", image: "./images/off.jpeg", imageAlt: "Government Inclusion" },
+      { id: 3, title: "Media Recognition", description: "Recognition and visibility increased in both electronic and print media.", icon: "📺", color: "#8e3ae8", image: "./images/slide3.jpg", imageAlt: "Media Recognition" },
+      { id: 4, title: "Women Empowerment", description: "Gender discrimination reduced; women's participation in organizations increased and their self-confidence grew.", icon: "👩", color: "#e83aaa", image: "./images/wom.jpeg", imageAlt: "Women Empowerment" },
+      { id: 5, title: "Democratic Participation", description: "210 people elected as public representatives in the three-tier Panchayati Raj system.", icon: "🗳️", color: "#3ab87d", image: "./images/off.jpeg", imageAlt: "Democratic Participation" },
     ];
 
     // CountUp Animation Function
@@ -336,8 +336,7 @@ ul.task-list li input[type="checkbox"] {
       
       card.innerHTML = `
         <div class="achiev-image-placeholder" style="width: 100%; height: 160px; background: ${item.color}08; border-bottom: 1px solid ${item.color}20; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 8px 8px 0 0;">
-          <div style="font-size: 36px; opacity: 0.5;">📷</div>
-          <span style="color: ${item.color}; font-size: 11px; font-family: monospace; letter-spacing: 2px; opacity: 0.7; margin-top: 5px;">ADD IMAGE HERE</span>
+          <img src="${item.image}" alt="${item.imageAlt}" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px 8px 0 0;">
         </div>
 
         <div class="achiev-icon-box" style="background: ${item.color}15; color: ${item.color}; margin-top: -35px; position: relative; border: 4px solid #fff;">
@@ -376,8 +375,7 @@ ul.task-list li input[type="checkbox"] {
 
       card.innerHTML = `
         <div class="impact-image-placeholder" style="background: ${item.color}08; border-bottom: 1px solid ${item.color}20;">
-          <div style="font-size: 48px; opacity: 0.5;">📷</div>
-          <span style="color: ${item.color}; font-size: 12px; font-family: monospace; letter-spacing: 2px; opacity: 0.7;">ADD IMAGE HERE</span>
+          <img src="${item.image}" alt="${item.imageAlt}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
           <div class="impact-icon-badge" style="color: ${item.color};">
             ${item.icon}
           </div>

@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-focus-areas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Focus Areas</span>
+ <span class="menu-text">Work Areas</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
         <li>
