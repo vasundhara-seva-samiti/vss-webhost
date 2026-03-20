@@ -462,7 +462,12 @@ ul.task-list li input[type="checkbox"] {
 
     const navFooter = document.querySelector("footer.footer .nav-footer");
     if (navFooter && !navFooter.classList.contains("vss-custom-footer")) {
-      const pageExt = window.location.pathname.endsWith(".php") ? ".php" : ".html";
+      // Derive extension from existing navbar links so "/" on Hostinger still resolves to .php pages.
+      let pageExt = ".php";
+      const extHintLink = document.querySelector('header a[href$=".php"], header a[href$=".html"], .navbar a[href$=".php"], .navbar a[href$=".html"]');
+      const extHintHref = extHintLink ? (extHintLink.getAttribute("href") || "") : "";
+      if (extHintHref.includes(".html")) pageExt = ".html";
+      if (extHintHref.includes(".php")) pageExt = ".php";
       const pageLink = function (slug) {
         return "./" + slug + pageExt;
       };
