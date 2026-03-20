@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="./site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="./site_libs/bootstrap/bootstrap-5f65087b09968f8d9f7624042aeae734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="./site_libs/bootstrap/bootstrap-b8be95c0ef530753e2d5ddcf586a4a09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,6 +94,82 @@ ul.task-list li input[type="checkbox"] {
         '</div>' +
       '</div>';
     header.prepend(bar);
+
+    const navFooter = document.querySelector("footer.footer .nav-footer");
+    if (navFooter && !navFooter.classList.contains("vss-custom-footer")) {
+      const pageExt = window.location.pathname.endsWith(".php") ? ".php" : ".html";
+      const pageLink = function (slug) {
+        return "./" + slug + pageExt;
+      };
+
+      navFooter.classList.add("vss-custom-footer");
+      navFooter.innerHTML =
+        '<div class="vss-footer-shell">' +
+          '<div class="vss-footer-grid">' +
+            '<div class="vss-footer-col vss-footer-subscribe">' +
+              '<h3>Subscribe & Social</h3>' +
+              '<label class="visually-hidden" for="vss-footer-email">Email address</label>' +
+              '<input id="vss-footer-email" type="email" class="vss-footer-input" placeholder="Email Address" />' +
+              '<button type="button" class="vss-footer-btn">SUBSCRIBE</button>' +
+              '<div class="vss-footer-social">' +
+                '<a href="https://x.com" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>' +
+                '<a href="https://www.linkedin.com/company/vasundhara-sewa-samiti/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>' +
+                '<a href="https://www.instagram.com/invites/contact/?igsh=10hj0dse9xje5&utm_content=zcbfie2" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>' +
+                '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
+                '<a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a>' +
+              '</div>' +
+            '</div>' +
+            '<div class="vss-footer-col">' +
+              '<h3>Work Areas</h3>' +
+              '<ul>' +
+                '<li><a href="./' + pageLink("focusareas") + '">Focus Areas Overview</a></li>' +
+                '<li><a href="./' + pageLink("basicright") + '">Rights Based Work</a></li>' +
+                '<li><a href="./' + pageLink("livelihood") + '">Rural Livelihoods</a></li>' +
+                '<li><a href="./' + pageLink("disaster") + '">Disaster Management</a></li>' +
+                '<li><a href="./' + pageLink("capacity") + '">Capacity Building</a></li>' +
+              '</ul>' +
+            '</div>' +
+            '<div class="vss-footer-col">' +
+              '<h3>About Us</h3>' +
+              '<ul>' +
+                '<li><a href="./' + pageLink("about") + '">Overview</a></li>' +
+                '<li><a href="./' + pageLink("team") + '">Our People</a></li>' +
+                '<li><a href="./' + pageLink("board") + '">History & Board</a></li>' +
+              '</ul>' +
+            '</div>' +
+            '<div class="vss-footer-col">' +
+              '<h3>Others</h3>' +
+              '<ul>' +
+                '<li><a href="./' + pageLink("career") + '">Careers</a></li>' +
+                '<li><a href="./' + pageLink("media-coverage") + '">Resources</a></li>' +
+                '<li><a href="./' + pageLink("blog") + '">Impact Stories</a></li>' +
+                '<li><a href="./' + pageLink("contact") + '">Contact Us</a></li>' +
+              '</ul>' +
+            '</div>' +
+          '</div>' +
+          '<div class="vss-footer-bottom">Copyright &copy; 2026 Vasundhara Sewa Samiti</div>' +
+        '</div>';
+    }
+
+    if (!document.querySelector(".vss-back-to-top")) {
+      const backTopBtn = document.createElement("button");
+      backTopBtn.type = "button";
+      backTopBtn.className = "vss-back-to-top";
+      backTopBtn.setAttribute("aria-label", "Back to top");
+      backTopBtn.innerHTML = '<i class="bi bi-arrow-up" aria-hidden="true"></i>';
+      document.body.appendChild(backTopBtn);
+
+      const toggleBackTop = function () {
+        backTopBtn.classList.toggle("is-visible", window.scrollY > 260);
+      };
+
+      backTopBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      window.addEventListener("scroll", toggleBackTop, { passive: true });
+      toggleBackTop();
+    }
   });
 </script>
 
@@ -105,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.php" class="navbar-brand navbar-brand-logo">
@@ -159,10 +235,10 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-focus-areas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work-areas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Work Areas</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-focus-areas">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work-areas">    
         <li>
     <a class="dropdown-item" href="./focusareas.php">
  <span class="dropdown-text">Focus Areas Overview</span></a>
@@ -231,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="vssCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4500" data-bs-pause="false">
+<div id="vssCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4500" data-bs-pause="false" data-bs-wrap="true" data-bs-touch="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#vssCarousel" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#vssCarousel" data-bs-slide-to="1"></button>
@@ -239,6 +315,7 @@ ul.task-list li input[type="checkbox"] {
     <button type="button" data-bs-target="#vssCarousel" data-bs-slide-to="3"></button>
     <button type="button" data-bs-target="#vssCarousel" data-bs-slide-to="4"></button>
     <button type="button" data-bs-target="#vssCarousel" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#vssCarousel" data-bs-slide-to="6"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -286,6 +363,26 @@ ul.task-list li input[type="checkbox"] {
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const heroCarouselEl = document.getElementById("vssCarousel");
+    if (!heroCarouselEl || !window.bootstrap) return;
+
+    const heroCarousel = bootstrap.Carousel.getOrCreateInstance(heroCarouselEl, {
+      interval: 4500,
+      pause: false,
+      wrap: true,
+      ride: "carousel",
+      touch: true
+    });
+
+    heroCarousel.cycle();
+    heroCarouselEl.addEventListener("slid.bs.carousel", function () {
+      heroCarousel.cycle();
+    });
+  });
+</script>
 
 <div class="about-home">
   <h2 class="section-title anchored">Vasundhara Sewa Samiti</h2>
@@ -597,7 +694,7 @@ ul.task-list li input[type="checkbox"] {
         </article>
 
         <article class="impact-story-card">
-          <img src="./images/off.jpeg" alt="Government Participation">
+          <img src="./images/of.jpeg" alt="Government Participation">
           <div class="impact-story-body">
             <h3 class="anchored">Participation in Government Institutions</h3>
             <p>Improved participation of marginalized communities in government institutions and committees, ensuring their voices shape policy and local governance decisions.</p>

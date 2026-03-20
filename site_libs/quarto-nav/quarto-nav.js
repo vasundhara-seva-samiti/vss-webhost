@@ -268,13 +268,13 @@ window.document.addEventListener("DOMContentLoaded", function () {
   }
   setTimeout(updateDocumentOffsetWithoutAnimation, 250);
 
-  // fixup index.php links if we aren't on the filesystem
+  // fixup index.html links if we aren't on the filesystem
   if (window.location.protocol !== "file:") {
     const links = window.document.querySelectorAll("a");
     for (let i = 0; i < links.length; i++) {
       if (links[i].href) {
         links[i].dataset.originalHref = links[i].href;
-        links[i].href = links[i].href.replace(/\/index\.php/, "/");
+        links[i].href = links[i].href.replace(/\/index\.html/, "/");
       }
     }
 
