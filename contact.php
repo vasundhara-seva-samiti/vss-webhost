@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles-20260320.css">
 </head>
 
 <body class="nav-fixed quarto-light">
