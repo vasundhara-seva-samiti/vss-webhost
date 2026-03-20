@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="./site_libs/quarto-nav/headroom.min.js"></script>
-<script src="./site_libs/clipboard/clipboard.min.js"></script>
-<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="./site_libs/quarto-search/fuse.min.js"></script>
-<script src="./site_libs/quarto-search/quarto-search.js"></script>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="./site_libs/quarto-html/popper.min.js"></script>
-<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="./site_libs/quarto-html/anchor.min.js"></script>
-<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="./site_libs/bootstrap/bootstrap-b8be95c0ef530753e2d5ddcf586a4a09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b8be95c0ef530753e2d5ddcf586a4a09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -122,28 +122,28 @@ ul.task-list li input[type="checkbox"] {
             '<div class="vss-footer-col">' +
               '<h3>Work Areas</h3>' +
               '<ul>' +
-                '<li><a href="./' + pageLink("focusareas") + '">Focus Areas Overview</a></li>' +
-                '<li><a href="./' + pageLink("basicright") + '">Rights Based Work</a></li>' +
-                '<li><a href="./' + pageLink("livelihood") + '">Rural Livelihoods</a></li>' +
-                '<li><a href="./' + pageLink("disaster") + '">Disaster Management</a></li>' +
-                '<li><a href="./' + pageLink("capacity") + '">Capacity Building</a></li>' +
+                '<li><a href="' + pageLink("focusareas") + '">Focus Areas Overview</a></li>' +
+                '<li><a href="' + pageLink("basicright") + '">Rights Based Work</a></li>' +
+                '<li><a href="' + pageLink("livelihood") + '">Rural Livelihoods</a></li>' +
+                '<li><a href="' + pageLink("disaster") + '">Disaster Management</a></li>' +
+                '<li><a href="' + pageLink("capacity") + '">Capacity Building</a></li>' +
               '</ul>' +
             '</div>' +
             '<div class="vss-footer-col">' +
               '<h3>About Us</h3>' +
               '<ul>' +
-                '<li><a href="./' + pageLink("about") + '">Overview</a></li>' +
-                '<li><a href="./' + pageLink("team") + '">Our People</a></li>' +
-                '<li><a href="./' + pageLink("board") + '">History & Board</a></li>' +
+                '<li><a href="' + pageLink("about") + '">Overview</a></li>' +
+                '<li><a href="' + pageLink("team") + '">Our People</a></li>' +
+                '<li><a href="' + pageLink("board") + '">History & Board</a></li>' +
               '</ul>' +
             '</div>' +
             '<div class="vss-footer-col">' +
               '<h3>Others</h3>' +
               '<ul>' +
-                '<li><a href="./' + pageLink("career") + '">Careers</a></li>' +
-                '<li><a href="./' + pageLink("media-coverage") + '">Resources</a></li>' +
-                '<li><a href="./' + pageLink("blog") + '">Impact Stories</a></li>' +
-                '<li><a href="./' + pageLink("contact") + '">Contact Us</a></li>' +
+                '<li><a href="' + pageLink("career") + '">Careers</a></li>' +
+                '<li><a href="' + pageLink("media-coverage") + '">Resources</a></li>' +
+                '<li><a href="' + pageLink("blog") + '">Impact Stories</a></li>' +
+                '<li><a href="' + pageLink("contact") + '">Contact Us</a></li>' +
               '</ul>' +
             '</div>' +
           '</div>' +
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -1200,5 +1200,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

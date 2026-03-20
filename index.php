@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="./site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="./site_libs/quarto-nav/headroom.min.js"></script>
-<script src="./site_libs/clipboard/clipboard.min.js"></script>
-<script src="./site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="./site_libs/quarto-search/fuse.min.js"></script>
-<script src="./site_libs/quarto-search/quarto-search.js"></script>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="./site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="./site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="./site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="./site_libs/quarto-html/popper.min.js"></script>
-<script src="./site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="./site_libs/quarto-html/anchor.min.js"></script>
-<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="./site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="./site_libs/bootstrap/bootstrap-b8be95c0ef530753e2d5ddcf586a4a09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b8be95c0ef530753e2d5ddcf586a4a09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           '<a href="tel:+919672499564" class="vss-topbar-link"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>+91 9672499564</span></a>' +
         '</div>' +
         '<div class="vss-topbar-center">' +
-          '<a href="./donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
+          '<a href="donation.php" class="vss-topbar-donate"><i class="bi bi-heart-fill" aria-hidden="true"></i><span>Donate Now</span></a>' +
         '</div>' +
         '<div class="vss-topbar-right" aria-label="Social links">' +
           '<a href="https://www.facebook.com/share/1J129dcf94/" target="_blank" rel="noopener" class="vss-topbar-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>' +
@@ -122,28 +122,28 @@ ul.task-list li input[type="checkbox"] {
             '<div class="vss-footer-col">' +
               '<h3>Work Areas</h3>' +
               '<ul>' +
-                '<li><a href="./' + pageLink("focusareas") + '">Focus Areas Overview</a></li>' +
-                '<li><a href="./' + pageLink("basicright") + '">Rights Based Work</a></li>' +
-                '<li><a href="./' + pageLink("livelihood") + '">Rural Livelihoods</a></li>' +
-                '<li><a href="./' + pageLink("disaster") + '">Disaster Management</a></li>' +
-                '<li><a href="./' + pageLink("capacity") + '">Capacity Building</a></li>' +
+                '<li><a href="' + pageLink("focusareas") + '">Focus Areas Overview</a></li>' +
+                '<li><a href="' + pageLink("basicright") + '">Rights Based Work</a></li>' +
+                '<li><a href="' + pageLink("livelihood") + '">Rural Livelihoods</a></li>' +
+                '<li><a href="' + pageLink("disaster") + '">Disaster Management</a></li>' +
+                '<li><a href="' + pageLink("capacity") + '">Capacity Building</a></li>' +
               '</ul>' +
             '</div>' +
             '<div class="vss-footer-col">' +
               '<h3>About Us</h3>' +
               '<ul>' +
-                '<li><a href="./' + pageLink("about") + '">Overview</a></li>' +
-                '<li><a href="./' + pageLink("team") + '">Our People</a></li>' +
-                '<li><a href="./' + pageLink("board") + '">History & Board</a></li>' +
+                '<li><a href="' + pageLink("about") + '">Overview</a></li>' +
+                '<li><a href="' + pageLink("team") + '">Our People</a></li>' +
+                '<li><a href="' + pageLink("board") + '">History & Board</a></li>' +
               '</ul>' +
             '</div>' +
             '<div class="vss-footer-col">' +
               '<h3>Others</h3>' +
               '<ul>' +
-                '<li><a href="./' + pageLink("career") + '">Careers</a></li>' +
-                '<li><a href="./' + pageLink("media-coverage") + '">Resources</a></li>' +
-                '<li><a href="./' + pageLink("blog") + '">Impact Stories</a></li>' +
-                '<li><a href="./' + pageLink("contact") + '">Contact Us</a></li>' +
+                '<li><a href="' + pageLink("career") + '">Careers</a></li>' +
+                '<li><a href="' + pageLink("media-coverage") + '">Resources</a></li>' +
+                '<li><a href="' + pageLink("blog") + '">Impact Stories</a></li>' +
+                '<li><a href="' + pageLink("contact") + '">Contact Us</a></li>' +
               '</ul>' +
             '</div>' +
           '</div>' +
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -319,41 +319,41 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./images/slide1.jpg" alt="Rights-based work">
+      <img src="images/slide1.jpg" alt="Rights-based work">
       <div class="carousel-caption d-none d-md-block">
         <h2 class="anchored">Rights-Based Work</h2>
         <p>Strengthening marginalized communities to claim their legal rights, challenge caste-based discrimination, and access justice and government entitlements through collective action and advocacy.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./images/slide2.jpg" alt="Livelihood support">
+      <img src="images/slide2.jpg" alt="Livelihood support">
       <div class="carousel-caption d-none d-md-block">
         <h2 class="anchored">Livelihood</h2>
         <p>Strengthening sustainable livelihoods of marginalized communities through improved agriculture, livestock support, and better access to land, markets, and government welfare programs.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./images/slide3.jpg" alt="Disaster Management">
+      <img src="images/slide3.jpg" alt="Disaster Management">
       <div class="carousel-caption d-none d-md-block">
         <h2 class="anchored">Disaster Management</h2>
         <p>Building community resilience to drought and crises through preparedness, risk reduction, and timely support for the most vulnerable communities.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./images/cp.png" alt="Capacity Building">
+      <img src="images/cp.png" alt="Capacity Building">
       <div class="carousel-caption d-none d-md-block">
         <h2 class="anchored">Capacity Building</h2>
         <p>Enhancing the skills, awareness, and leadership capacities of community members and grassroots groups to promote self-reliance and effective participation in development processes.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./images/h1.jpeg" alt="Program photo 1">
+      <img src="images/h1.jpeg" alt="Program photo 1">
     </div>
     <div class="carousel-item">
-      <img src="./images/tal1.jpeg" alt="Program photo 2">
+      <img src="images/tal1.jpeg" alt="Program photo 2">
     </div>
     <div class="carousel-item">
-      <img src="./images/ta1.jpeg" alt="Program photo 3">
+      <img src="images/ta1.jpeg" alt="Program photo 3">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#vssCarousel" data-bs-slide="prev">
@@ -393,8 +393,8 @@ ul.task-list li input[type="checkbox"] {
   <p>VSS focuses on community-led development, sustainable livelihoods, conservation of traditional water resources, health and environmental awareness, and promotion of fundamental rights. Through grassroots efforts, the organization also supports women’s livelihoods, climate resilience, and community participation in Panchayati Raj systems, helping rural communities become more self-reliant and resilient.</p>
   
   <div class="about-home-actions">
-    <a href="./about.php" class="btn-vss">Read More About Us</a>
-    <a href="./contact.php" class="btn-vss-outline">Contact Us</a>
+    <a href="about.php" class="btn-vss">Read More About Us</a>
+    <a href="contact.php" class="btn-vss-outline">Contact Us</a>
   </div>
 </div>
 
@@ -407,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="col-12">
         <div class="focused-area-card p-0">
           <div class="circle-img-wrapper mx-auto mb-2">
-            <img src="./images/slide1.jpg" alt="Right-Based Work">
+            <img src="images/slide1.jpg" alt="Right-Based Work">
           </div>
           <h4 class="area-title mb-2 anchored">Right Based</h4>
           <p class="area-desc text-center mx-auto" style="max-width: 800px; font-size: 1.1rem; line-height: 1.6;">In western Rajasthan, Dalits and marginalized communities face a dual exclusion: they are physically distant from government services, and socially denied the rights that legally belong to them. Caste-based discrimination continues in schools and public spaces.</p>
@@ -417,7 +417,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="col-12">
         <div class="focused-area-card p-0">
           <div class="circle-img-wrapper mx-auto mb-2">
-            <img src="./images/slide2.jpg" alt="Livelihood-Based Work">
+            <img src="images/slide2.jpg" alt="Livelihood-Based Work">
           </div>
           <h4 class="area-title mb-2 anchored">Livelihood</h4>
           <p class="area-desc text-center mx-auto" style="max-width: 800px; font-size: 1.1rem; line-height: 1.6;">Promoting sustainable livelihoods through skills training, local planning, and connecting families with support schemes. We focus on agriculture, animal husbandry, and vocational training to ensure economic stability for rural households.</p>
@@ -427,7 +427,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="col-12">
         <div class="focused-area-card p-0">
           <div class="circle-img-wrapper mx-auto mb-2">
-            <img src="./images/slide3.jpg" alt="Disaster Management Work">
+            <img src="images/slide3.jpg" alt="Disaster Management Work">
           </div>
           <h4 class="area-title mb-2 anchored">Disaster Management</h4>
           <p class="area-desc text-center mx-auto" style="max-width: 800px; font-size: 1.1rem; line-height: 1.6;">Building preparedness and community response capacity to reduce disaster risk and protect vulnerable families. We work on drought mitigation, water conservation, and emergency relief distribution during crises.</p>
@@ -437,7 +437,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="col-12">
         <div class="focused-area-card p-0">
           <div class="circle-img-wrapper mx-auto mb-2">
-            <img src="./images/dm.jpg" alt="Capacity Building Work">
+            <img src="images/dm.jpg" alt="Capacity Building Work">
           </div>
           <h4 class="area-title mb-2 anchored">Capacity Building</h4>
           <p class="area-desc text-center mx-auto" style="max-width: 800px; font-size: 1.1rem; line-height: 1.6;">Strengthening institutions, community leaders, and grassroots workers through training and mentoring. We empower local governance structures and community-based organizations to function effectively and democratically.</p>
@@ -662,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="impact-story-track-wrap">
       <div class="impact-story-track" data-impact-track="">
         <article class="impact-story-card">
-          <img src="./images/soc.jpg" alt="Community Access">
+          <img src="images/soc.jpg" alt="Community Access">
           <div class="impact-story-body">
             <h3 class="anchored">Increased Access to Public Services</h3>
             <p>Dalit communities gained greater access to public services and public spaces, significantly reducing discrimination and promoting equality in daily life.</p>
@@ -670,7 +670,7 @@ ul.task-list li input[type="checkbox"] {
         </article>
 
         <article class="impact-story-card">
-          <img src="./images/off.jpeg" alt="Panchayati Raj">
+          <img src="images/off.jpeg" alt="Panchayati Raj">
           <div class="impact-story-body">
             <h3 class="anchored">210 Elected Community Representatives</h3>
             <p>210 community members were elected as representatives in the three-tier Panchayati Raj system, strengthening democratic participation at the grassroots level.</p>
@@ -678,7 +678,7 @@ ul.task-list li input[type="checkbox"] {
         </article>
 
         <article class="impact-story-card">
-          <img src="./images/slide3.jpg" alt="Media Visibility">
+          <img src="images/slide3.jpg" alt="Media Visibility">
           <div class="impact-story-body">
             <h3 class="anchored">Greater Visibility in Media</h3>
             <p>Marginalized communities achieved greater visibility and recognition in both print and electronic media, amplifying their voices to a wider audience.</p>
@@ -686,7 +686,7 @@ ul.task-list li input[type="checkbox"] {
         </article>
 
         <article class="impact-story-card">
-          <img src="./images/wom.jpeg" alt="Women Empowerment">
+          <img src="images/wom.jpeg" alt="Women Empowerment">
           <div class="impact-story-body">
             <h3 class="anchored">Women's Participation &amp; Confidence</h3>
             <p>Increased women's participation and growing confidence in community organizations has created lasting change in how women engage with civic and social life.</p>
@@ -694,7 +694,7 @@ ul.task-list li input[type="checkbox"] {
         </article>
 
         <article class="impact-story-card">
-          <img src="./images/of.jpeg" alt="Government Participation">
+          <img src="images/of.jpeg" alt="Government Participation">
           <div class="impact-story-body">
             <h3 class="anchored">Participation in Government Institutions</h3>
             <p>Improved participation of marginalized communities in government institutions and committees, ensuring their voices shape policy and local governance decisions.</p>
@@ -1009,7 +1009,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="achv-track" data-achv-track="">
         <article class="achv-card">
           <div class="achv-img-wrap">
-            <img src="./images/bigha.jpeg" alt="Agricultural Land Freed" data-achv-img="0">
+            <img src="images/bigha.jpeg" alt="Agricultural Land Freed" data-achv-img="0">
             <div class="achv-img-badge">
               <span class="achv-counter" data-target="1200">0</span>
               <span class="unit">Bigha</span>
@@ -1023,7 +1023,7 @@ ul.task-list li input[type="checkbox"] {
 
         <article class="achv-card">
           <div class="achv-img-wrap">
-            <img src="./images/vulne.jpeg" alt="Residential Land Titles" data-achv-img="1">
+            <img src="images/vulne.jpeg" alt="Residential Land Titles" data-achv-img="1">
             <div class="achv-img-badge">
               <span class="achv-counter" data-target="200">0</span>
               <span class="unit">Families</span>
@@ -1037,7 +1037,7 @@ ul.task-list li input[type="checkbox"] {
 
         <article class="achv-card">
           <div class="achv-img-wrap">
-            <img src="./images/any.jpg" alt="Justice under Atrocities Act" data-achv-img="2">
+            <img src="images/any.jpg" alt="Justice under Atrocities Act" data-achv-img="2">
             <div class="achv-img-badge">
               <span class="achv-counter" data-target="1703">0</span>
               <span class="unit">People</span>
@@ -1051,7 +1051,7 @@ ul.task-list li input[type="checkbox"] {
 
         <article class="achv-card">
           <div class="achv-img-wrap">
-            <img src="./images/narega.jpeg" alt="NREGA Work Applications" data-achv-img="3">
+            <img src="images/narega.jpeg" alt="NREGA Work Applications" data-achv-img="3">
             <div class="achv-img-badge">
               <span class="achv-counter" data-target="5000">0</span>
               <span class="unit">People</span>
@@ -1065,7 +1065,7 @@ ul.task-list li input[type="checkbox"] {
 
         <article class="achv-card">
           <div class="achv-img-wrap">
-            <img src="./images/cap.jpeg" alt="Trained Community Volunteers" data-achv-img="4">
+            <img src="images/cap.jpeg" alt="Trained Community Volunteers" data-achv-img="4">
             <div class="achv-img-badge">
               <span class="achv-counter" data-target="427">0</span>
               <span class="unit">Volunteers</span>
@@ -1087,15 +1087,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- ILLUSTRATION BANNER -->
 <div class="full-width-banner reveal">
   <!-- Replace with your actual illustration: images/social-banner.jpg -->
-  <img src="./images/bg.png" alt="Vasundhara Sewa Samiti – Rural Impact">
+  <img src="images/bg.png" alt="Vasundhara Sewa Samiti – Rural Impact">
   <div class="banner-overlay">
     <div class="banner-content">
       <div class="banner-tag">🌿 Hamari Soch</div>
       <h2 class="anchored">Jahan Har Zindagi<br><em>Phale-Phule</em></h2>
       <p>राजस्थान के ग्रामीण और सूखा-प्रभावित क्षेत्रों में हम विश्वास करते हैं कि जब समुदाय को आजीविका, जल सुरक्षा, शिक्षा और अधिकारों तक पहुँच मिलती है, तभी सच्चे अर्थों में आत्मनिर्भर और सशक्त समाज का निर्माण होता है।</p>
       <div class="banner-btns">
-        <a href="./about.php" class="btn-banner-white">Hamare Saath Judein</a>
-        <a href="./gallery.php" class="btn-banner-ghost">Gallery Dekhein</a>
+        <a href="about.php" class="btn-banner-white">Hamare Saath Judein</a>
+        <a href="gallery.php" class="btn-banner-ghost">Gallery Dekhein</a>
       </div>
     </div>
   </div>
@@ -1412,7 +1412,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 
     <div class="home-donate-buttons">
-      <a href="./donation.php" class="home-donate-btn home-donate-btn-primary">Donate Now</a>
+      <a href="donation.php" class="home-donate-btn home-donate-btn-primary">Donate Now</a>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxk1uA_f0U7fUZUoxoKm7Iac7Ka7NolncxVZEukEBTvZvTMw/viewform?usp=header" target="_blank" rel="noopener" class="home-donate-btn home-donate-btn-outline">Volunteer</a>
     </div>
 
@@ -2192,5 +2192,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="./site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
