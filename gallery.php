@@ -333,35 +333,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m6.jpeg" alt="International Women's Day Celebration">
-      <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
-    </article>
-    <article class="vgx-item" data-category="event">
       <img src="images/m7.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
-      <img src="images/m8.jpeg" alt="International Women's Day Celebration">
-      <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
-    </article>
-    <article class="vgx-item" data-category="event">
       <img src="images/m13.jpeg" alt="International Women's Day Celebration">
-      <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
-    </article>
-    <article class="vgx-item" data-category="event">
-      <img src="images/m15.jpeg" alt="International Women's Day Celebration">
-      <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
-    </article>
-    <article class="vgx-item" data-category="event">
-      <img src="images/m17.jpeg" alt="International Women's Day Celebration">
-      <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
-    </article>
-    <article class="vgx-item" data-category="event">
-      <img src="images/m19.jpeg" alt="International Women's Day Celebration">
-      <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
-    </article>
-    <article class="vgx-item" data-category="event">
-      <img src="images/m21.jpeg" alt="International Women's Day Celebration">
       <div class="vgx-overlay"><h3 class="anchored">Celebration</h3><p>Women's Day</p></div>
     </article>
     <article class="vgx-item" data-category="event">
