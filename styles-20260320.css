@@ -23,19 +23,33 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   perspective: 1000px;
   will-change: transform;
 }
 
-#vssCarousel .carousel-item.active img {
+#vssCarousel .carousel-item.active img,
+#vssCarousel .carousel-item img.vss-zoom-animating {
+  -webkit-animation: vssZoomIn 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   animation: vssZoomIn 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@-webkit-keyframes vssZoomIn {
+  0% { -webkit-transform: scale(1); transform: scale(1); }
+  100% { -webkit-transform: scale(1.15); transform: scale(1.15); }
 }
 
 @keyframes vssZoomIn {
   0% { transform: scale(1); }
   100% { transform: scale(1.15); }
+}
+
+@-webkit-keyframes vssFadeUp {
+  from { opacity: 0; -webkit-transform: translate3d(0, 40px, 0); transform: translate3d(0, 40px, 0); }
+  to { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 }
 
 @keyframes vssFadeUp {
@@ -86,7 +100,9 @@
     6px 6px 15px rgba(0, 0, 0, 0.9);
 }
 
-#vssCarousel .carousel-item.active .carousel-caption h2 {
+#vssCarousel .carousel-item.active .carousel-caption h2,
+#vssCarousel .carousel-caption h2.vss-caption-animating {
+  -webkit-animation: vssFadeUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.6s forwards;
   animation: vssFadeUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.6s forwards;
 }
 
@@ -108,7 +124,9 @@
     0 0 10px rgba(0, 0, 0, 0.7);
 }
 
-#vssCarousel .carousel-item.active .carousel-caption p {
+#vssCarousel .carousel-item.active .carousel-caption p,
+#vssCarousel .carousel-caption p.vss-caption-animating {
+  -webkit-animation: vssFadeUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.8s forwards;
   animation: vssFadeUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.8s forwards;
 }
 
@@ -122,6 +140,10 @@
     left: 5%;
     max-width: 90%;
     align-items: flex-start; /* Keep left alignment */
+  }
+
+  #vssCarousel .carousel-caption.d-none.d-md-block {
+    display: flex !important;
   }
 
   #vssCarousel .carousel-caption h2 {

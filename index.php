@@ -374,6 +374,32 @@ ul.task-list li input[type="checkbox"] {
     const heroCarouselEl = document.getElementById("vssCarousel");
     if (!heroCarouselEl || !window.bootstrap) return;
 
+    function restartHeroSlideAnimations() {
+      heroCarouselEl.querySelectorAll(".carousel-item img, .carousel-caption h2, .carousel-caption p").forEach(function (el) {
+        el.classList.remove("vss-zoom-animating", "vss-caption-animating");
+      });
+
+      const activeItem = heroCarouselEl.querySelector(".carousel-item.active");
+      if (!activeItem) return;
+
+      const activeImg = activeItem.querySelector("img");
+      const activeHeading = activeItem.querySelector(".carousel-caption h2");
+      const activeText = activeItem.querySelector(".carousel-caption p");
+
+      if (activeImg) {
+        void activeImg.offsetWidth;
+        activeImg.classList.add("vss-zoom-animating");
+      }
+      if (activeHeading) {
+        void activeHeading.offsetWidth;
+        activeHeading.classList.add("vss-caption-animating");
+      }
+      if (activeText) {
+        void activeText.offsetWidth;
+        activeText.classList.add("vss-caption-animating");
+      }
+    }
+
     const heroCarousel = bootstrap.Carousel.getOrCreateInstance(heroCarouselEl, {
       interval: 4500,
       pause: false,
@@ -382,9 +408,15 @@ ul.task-list li input[type="checkbox"] {
       touch: true
     });
 
+    restartHeroSlideAnimations();
     heroCarousel.cycle();
     heroCarouselEl.addEventListener("slid.bs.carousel", function () {
+      restartHeroSlideAnimations();
       heroCarousel.cycle();
+    });
+
+    window.addEventListener("orientationchange", function () {
+      window.setTimeout(restartHeroSlideAnimations, 120);
     });
   });
 </script>
