@@ -99,9 +99,9 @@ ul.task-list li input[type="checkbox"] {
     if (navFooter && !navFooter.classList.contains("vss-custom-footer")) {
       // Derive extension from existing navbar links so "/" on Hostinger still resolves to .php pages.
       let pageExt = ".php";
-      const extHintLink = document.querySelector('header a[href$=".php"], header a[href$=".html"], .navbar a[href$=".php"], .navbar a[href$=".html"]');
+      const extHintLink = document.querySelector('header a[href$=".php"], header a[href$=".php"], .navbar a[href$=".php"], .navbar a[href$=".php"]');
       const extHintHref = extHintLink ? (extHintLink.getAttribute("href") || "") : "";
-      if (extHintHref.includes(".html")) pageExt = ".html";
+      if (extHintHref.includes(".php")) pageExt = ".php";
       if (extHintHref.includes(".php")) pageExt = ".php";
       const pageLink = function (slug) {
         return "./" + slug + pageExt;
@@ -320,6 +320,60 @@ ul.task-list li input[type="checkbox"] {
 <section class="vgx-gallery-shell">
   <header class="vgx-header reveal">
     <span class="vgx-kicker">Events</span>
+    <h2 class="section-title anchored">Two-day worker capacity building training on climate change issues</h2>
+    <div class="section-divider"></div>
+  </header>
+  <div class="vgx-masonry">
+    <article class="vgx-item" data-category="event">
+      <img src="images/j1.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j2.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j3.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j4.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j5.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j6.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j7.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j8.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j9.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j10.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j11.jpeg" alt="">
+
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j12.jpeg" alt="">
+
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/j13.jpeg" alt="">
+    </article>
+  </div>
+  <div class="vgx-foot">
+    <p>13 visuals in this collection</p>
+  </div>
+</section>
+
+<section class="vgx-gallery-shell">
+  <header class="vgx-header reveal">
+    <span class="vgx-kicker">Events</span>
     <h2 class="section-title anchored">Celebration of International Women's Day at VSS Office</h2>
     <div class="section-divider"></div>
   </header>
@@ -346,7 +400,7 @@ ul.task-list li input[type="checkbox"] {
     </article>
   </div>
   <div class="vgx-foot">
-    <p>11 visuals in this collection</p>
+    <p>5 visuals in this collection</p>
   </div>
 </section>
 
@@ -409,6 +463,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section class="vgx-gallery-shell">
   <header class="vgx-header reveal">
+    <span class="vgx-kicker">Events</span>
+    <h2 class="section-title anchored">Traditional Water Source Restoration</h2>
+    <div class="section-divider"></div>
+  </header>
+  <div class="vgx-masonry">
+    <article class="vgx-item" data-category="event">
+      <img src="images/tal1.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/po.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/tal4.jpeg" alt="International Women's Day Celebration">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/tal2.jpeg" alt="">
+    </article>
+    <article class="vgx-item" data-category="event">
+      <img src="images/tal3.jpeg" alt="">
+    </article>
+  </div>
+  <div class="vgx-foot">
+    <p>5 visuals in this collection</p>
+  </div>
+</section>
+
+<section class="vgx-gallery-shell">
+  <header class="vgx-header reveal">
     <span class="vgx-kicker">Visual Stories</span>
     <h2 class="section-title anchored">Community Protection Drive: 40,000 Masks Distributed During Covid-19 in Jodhpur-Balesar, &amp; Barmer-Kalyanpur block.</h2>
     <div class="section-divider"></div>
@@ -426,10 +508,6 @@ ul.task-list li input[type="checkbox"] {
     <article class="vgx-item" data-category="" data-index="2">
       <img src="images/g3.jpeg" alt="">
       <div class="vgx-overlay"><h3 class="anchored">Family Receives Masks</h3><p>Community</p></div>
-    </article>
-    <article class="vgx-item" data-category="operations" data-index="5">
-      <img src="images/g6.jpeg" alt="Food">
-      <div class="vgx-overlay"><h3 class="anchored">Food distributor</h3><p>Operations</p></div>
     </article>
     <article class="vgx-item" data-category="volunteers" data-index="8">
       <img src="images/g9.jpeg" alt="Mask stitching in progress">
@@ -454,10 +532,6 @@ ul.task-list li input[type="checkbox"] {
     <article class="vgx-item" data-category="community" data-index="13">
       <img src="images/g14.jpeg" alt="Village meeting for mask safety">
       <div class="vgx-overlay"><h3 class="anchored">Village Meeting</h3><p>Community</p></div>
-    </article>
-    <article class="vgx-item" data-category="volunteers" data-index="14">
-      <img src="images/g15.jpeg" alt="Group of volunteers with masks">
-      <div class="vgx-overlay"><h3 class="anchored">Volunteer Team</h3><p>Volunteers</p></div>
     </article>
   </div>
 

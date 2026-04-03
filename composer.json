@@ -1,11 +1,23 @@
 {
-    "name": "vss-webhost/static-site",
-    "description": "Static website for VSS NGO",
+    "name": "vasundhara-sewa-samiti/website",
+    "description": "Website for Vasundhara Sewa Samiti NGO",
     "type": "project",
-    "require": {},
-    "autoload": {
-        "psr-4": {}
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasundhara Sewa Samiti",
+            "email": "contact@vasundharasewasamiti.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "autoload": {
+        "psr-4": {
+            "Vasundhara\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
 }
